@@ -8,6 +8,7 @@ If you need to contact me, there's a section at the very bottom of this README. 
 
 ## Version History
 
+**v0.2**: Create initial project templates
 **v0.1**: Update initial README file
 
 ## Branch Strategy
