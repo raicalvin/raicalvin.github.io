@@ -1,3 +1,9 @@
-p {
-    color: blueviolet;
+/* APPLIED TO ALL ELEMENTS IN DOCUMENT */
+* {
+    /* Default font-family for website */
+    font-family: bodyText;
+    /* Normalize any browser-specific margins */
+    margin: 0;
+    /* Normalize any browser-specific padding*/
+    padding: 0;
 }

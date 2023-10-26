@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.container-hero {
+    background-image: url("../img/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
