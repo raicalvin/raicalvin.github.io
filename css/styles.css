@@ -115,3 +115,20 @@ p {
     width: fit-content;
     -webkit-text-fill-color: transparent;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* ANDROID PROJECTS STYLES */
+/* These are styles specific to the android projects part of the site */
+
+.container-android-projects {
+    padding-top: 96px;
+}
+
+.android-projects-title {
+    background: -webkit-linear-gradient(30deg, white, #30DB37);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}

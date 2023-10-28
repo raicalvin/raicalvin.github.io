@@ -27,6 +27,11 @@
     height: 900px;
 }
 
+.section-android-projects {
+    background-color: black;
+    height: 900px;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* CONTAINERS */
 /* These are the main boxes within each of your sections that pertain to responsive rules. */
