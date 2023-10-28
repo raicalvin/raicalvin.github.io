@@ -3,12 +3,19 @@
 /* This are full-width sections of your websites that will house your containers */
 
 .section-header {
-    background: url("../img/hero-image.jpg") no-repeat center center fixed; 
+    background: url("../img/hero-image.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-position: center center;
     height: 100vh;
+}
+
+.section-about-me {
+    background-color: black;
+    height: 500px;
 }
 
 /* === === === === === === === === === === === === === === === */

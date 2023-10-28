@@ -66,3 +66,25 @@ p {
 .container-header > button {
     margin-top: 58px;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* ABOUT ME SECTION */
+/* These are styles specific to the about-me container */
+
+.container-about-me {
+    padding-top: 96px;
+}
+
+.about-me-title {
+    background: -webkit-linear-gradient(30deg, white, #2ABFFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-me-description {
+    color: white;
+    padding-top: 42px;
+}
