@@ -1,5 +1,34 @@
 .title-header {
     font-family: 'urbanist-extrabold';
     font-size: 60px;
-    color: whitesmoke;
+}
+
+.title-subheader {
+    font-family: 'urbanist-medium';
+    font-size: 36px;
+}
+
+.display-subheader {
+    font-family: 'urbanist-thin';
+    font-size: 24px;
+}
+
+.section-header {
+    font-family: 'urbanist-semibold';
+    font-size: 36px;
+}
+
+.section-subheader {
+    font-family: 'urbanist-bold';
+    font-size: 32px;
+}
+
+.body-text {
+    font-family: 'urbanist-regular';
+    font-size: 21px;
+}
+
+.caption {
+    font-family: 'urbanist-semibold';
+    font-size: 12px;
 }
