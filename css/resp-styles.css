@@ -22,6 +22,11 @@
     background-color: #E7E7E7;
 }
 
+.section-augmented-reality {
+    background-color: black;
+    height: 900px;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* CONTAINERS */
 /* These are the main boxes within each of your sections that pertain to responsive rules. */

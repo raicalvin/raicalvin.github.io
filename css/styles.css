@@ -98,3 +98,20 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* AUGMENTED REALITY STYLES */
+/* These are styles specific to the augmented reality part of the site */
+
+.container-augmented-reality {
+    padding-top: 96px;
+}
+
+.augmented-reality-title {
+    background: -webkit-linear-gradient(30deg, white, #B300FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
