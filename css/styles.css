@@ -55,8 +55,8 @@ p {
 }
 
 /* === === === === === === === === === === === === === === === */
-/* HEADER SECTION */
-/* These are styles specific to the header container */
+/* HERO STYLES */
+/* These are styles specific to the hero part in the home page */
 
 .container-header {
     color: white;
@@ -68,8 +68,8 @@ p {
 }
 
 /* === === === === === === === === === === === === === === === */
-/* ABOUT ME SECTION */
-/* These are styles specific to the about-me container */
+/* ABOUT ME STYLES */
+/* These are styles specific to the about-me part */
 
 .container-about-me {
     padding-top: 96px;
@@ -87,4 +87,14 @@ p {
 .about-me-description {
     color: white;
     padding-top: 42px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* FUN QUOTES STYLES */
+/* These are styles specific to the one-line sections breaking up the website */
+
+.container-fun-quote {
+    height: 400px;
+    align-items: center;
+    justify-content: center;
 }

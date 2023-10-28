@@ -18,6 +18,10 @@
     height: 500px;
 }
 
+.section-fun-quote {
+    background-color: #E7E7E7;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* CONTAINERS */
 /* These are the main boxes within each of your sections that pertain to responsive rules. */
