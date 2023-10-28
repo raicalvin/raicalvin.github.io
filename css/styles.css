@@ -1,4 +1,7 @@
-/* APPLIED TO ALL ELEMENTS IN DOCUMENT */
+/* === === === === === === === === === === === === === === === */
+/* DEFAULT STYLES */
+/* These are default styles applied to all document elements */
+
 * {
     /* Default font-family for website */
     font-family: bodyText;
@@ -6,4 +9,60 @@
     margin: 0;
     /* Normalize any browser-specific padding*/
     padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* BUTTON STYLES */
+/* These are the default button styles applied to all buttons. */
+
+.primary-button-light {
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition-duration: 0.25s;
+    cursor: pointer;
+    width: 160px;
+    height: 48px;
+}
+
+.primary-button-light:hover {
+    background-color: white;
+    color: black;
+}
+
+.primary-button-dark {
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    transition-duration: 0.25s;
+    cursor: pointer;
+    width: 160px;
+    height: 48px;
+}
+
+.primary-button-dark:hover {
+    background-color: black;
+    color: white;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* HEADER SECTION */
+/* These are styles specific to the header container */
+
+.container-header {
+    color: white;
+    padding-top: 300px;
+}
+
+.container-header > button {
+    margin-top: 58px;
 }

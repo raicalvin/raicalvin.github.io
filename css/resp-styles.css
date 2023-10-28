@@ -1,12 +1,27 @@
+/* === === === === === === === === === === === === === === === */
+/* SECTIONS */
+/* This are full-width sections of your websites that will house your containers */
+
+.section-header {
+    background: url("../img/hero-image.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* CONTAINERS */
+/* These are the main boxes within each of your sections that pertain to responsive rules. */
+
 .container {
     display: flex;
-    flex-wrap: wrap;
-  }
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-.container-hero {
-    background-image: url("../img/hero-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 60vh;
+.vertical-flex-container {
+    justify-content: start;
+    flex-direction: column;
 }
