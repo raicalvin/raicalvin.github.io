@@ -132,3 +132,55 @@ p {
     width: fit-content;
     -webkit-text-fill-color: transparent;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* RESUME STYLES */
+/* These are styles specific to the resume part of the site */
+
+.resume-title {
+    color: black;
+    padding-top: 96px;
+}
+
+.resume-image-bar-container {
+    display: flex;
+    position: relative;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.resume-left-blue-box {
+    background-color: #2ABFFF;
+    height: 250px;
+    width: 50%;
+}
+
+.resume-right-white-box {
+    background-color: white;
+    height: 250px;
+    width: 50%;
+}
+
+.resume-picture-container {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.resume-image {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    margin: auto; 
+    background-color: #2ABFFF;
+    padding: 5px;
+}
+
+.container-resume-download {
+    align-items: center;
+    padding-bottom: 56px;
+}
+
+.resume-subtitle {
+    margin-bottom: 42px;
+}

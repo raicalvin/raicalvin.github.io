@@ -32,6 +32,10 @@
     height: 900px;
 }
 
+.section-resume {
+    background-color: white;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* CONTAINERS */
 /* These are the main boxes within each of your sections that pertain to responsive rules. */
