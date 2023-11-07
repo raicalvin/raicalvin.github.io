@@ -36,6 +36,10 @@
     background-color: white;
 }
 
+.section-footer {
+    background-color: black;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* CONTAINERS */
 /* These are the main boxes within each of your sections that pertain to responsive rules. */

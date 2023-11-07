@@ -184,3 +184,14 @@ p {
 .resume-subtitle {
     margin-bottom: 42px;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* FOOTER STYLES */
+/* These are styles specific to the footer on the homepage */
+
+.footer-note {
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    text-align: center;
+}
