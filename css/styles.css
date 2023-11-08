@@ -67,6 +67,17 @@ p {
     margin-top: 58px;
 }
 
+.hero-bottom-chevron {
+    color: white;
+    height: 28px;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* ABOUT ME STYLES */
 /* These are styles specific to the about-me part */
@@ -85,8 +96,9 @@ p {
 }
 
 .about-me-description {
-    color: white;
+    color: #E7E7E7;
     padding-top: 42px;
+    line-height: 140%;
 }
 
 /* === === === === === === === === === === === === === === === */
