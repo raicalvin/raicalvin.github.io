@@ -145,6 +145,22 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
+.container-android-projects-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 96px;
+    width: 908px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.item-android-projects-thumbs {
+    height: 225px;
+    width: 225px;
+    margin: 1px;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* RESUME STYLES */
 /* These are styles specific to the resume part of the site */
