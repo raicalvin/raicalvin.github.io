@@ -101,6 +101,13 @@ p {
     line-height: 140%;
 }
 
+.about-me-ending-line {
+    width: 40px;
+    height: 2px;
+    background-color: #2ABFFF;
+    margin-top: 42px;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* FUN QUOTES STYLES */
 /* These are styles specific to the one-line sections breaking up the website */
