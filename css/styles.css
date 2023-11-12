@@ -1,0 +1,325 @@
+/* === === === === === === === === === === === === === === === */
+/* DEFAULT STYLES */
+/* These are default styles applied to all document elements */
+
+* {
+    /* Default font-family for website */
+    font-family: bodyText;
+    /* Normalize any browser-specific margins */
+    margin: 0;
+    /* Normalize any browser-specific padding*/
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* BUTTON STYLES */
+/* These are the default button styles applied to all buttons. */
+
+.primary-button-light {
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition-duration: 0.25s;
+    cursor: pointer;
+    width: 160px;
+    height: 48px;
+}
+
+.primary-button-light:hover {
+    background-color: white;
+    color: black;
+}
+
+.primary-button-dark {
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    transition-duration: 0.25s;
+    cursor: pointer;
+    width: 160px;
+    height: 48px;
+}
+
+.primary-button-dark:hover {
+    background-color: black;
+    color: white;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* HERO STYLES */
+/* These are styles specific to the hero part in the home page */
+
+.container-header {
+    color: white;
+    padding-top: 300px;
+}
+
+.container-header > button {
+    margin-top: 58px;
+}
+
+.hero-bottom-chevron {
+    color: white;
+    height: 28px;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* ABOUT ME STYLES */
+/* These are styles specific to the about-me part */
+
+.container-about-me {
+    padding-top: 96px;
+}
+
+.about-me-title {
+    background: -webkit-linear-gradient(30deg, white, #2ABFFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-me-description {
+    color: #E7E7E7;
+    padding-top: 42px;
+    line-height: 140%;
+}
+
+.about-me-ending-line {
+    width: 40px;
+    height: 2px;
+    background-color: #2ABFFF;
+    margin-top: 42px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* FUN QUOTES STYLES */
+/* These are styles specific to the one-line sections breaking up the website */
+
+.container-fun-quote {
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fun-quote-colored-word {
+    font-family: inherit;
+    font-size: inherit;
+    color: #0096FF;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* AUGMENTED REALITY STYLES */
+/* These are styles specific to the augmented reality part of the site */
+
+.container-augmented-reality {
+    padding-top: 96px;
+}
+
+.augmented-reality-title {
+    background: -webkit-linear-gradient(30deg, white, #B300FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-augmented-reality-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 96px;
+    width: 996px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    gap: 12px;
+    justify-content: center;
+}
+
+.augmented-reality-item-container {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.augmented-reality-project-thumb {
+    width: 200px;
+    height: auto;
+}
+
+.augmented-reality-project-thumb-overlay {
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.augmented-reality-item-container:hover .augmented-reality-project-thumb-overlay {
+    opacity: 0.7;
+}
+
+.augmented-reality-project-thumb-caption {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.augmented-reality-item-container:hover .augmented-reality-project-thumb-caption {
+    opacity: 1;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* ANDROID PROJECTS STYLES */
+/* These are styles specific to the android projects part of the site */
+
+.container-android-projects {
+    padding-top: 96px;
+}
+
+.android-projects-title {
+    background: -webkit-linear-gradient(30deg, white, #30DB37);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-android-projects-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 96px;
+    width: 908px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.item-android-projects-thumb {
+    height: 225px;
+    width: 225px;
+    margin: 1px;
+    position: relative;
+    text-align: center;
+}
+
+.item-android-projects-thumb:hover .item-android-project-thumb-title {
+    visibility: visible;
+    opacity: 1;
+}
+
+.item-android-projects-thumb:hover .item-android-projects-thumb-grayscale {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.item-android-projects-thumb-grayscale {
+    transition: 0.5s;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome/Safari */
+    max-width: 100%;
+}
+
+.item-android-project-thumb-title {
+    transition: 0.5s;
+    pointer-events: none;
+    position: absolute;
+    color: black;
+    top: 22px;
+    left: 0px;
+    right: 0px;
+    visibility: hidden; 
+    opacity: 0;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* RESUME STYLES */
+/* These are styles specific to the resume part of the site */
+
+.resume-title {
+    color: black;
+    padding-top: 96px;
+}
+
+.resume-image-bar-container {
+    display: flex;
+    position: relative;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.resume-left-blue-box {
+    background-color: #2ABFFF;
+    height: 250px;
+    width: 50%;
+}
+
+.resume-right-white-box {
+    background-color: white;
+    height: 250px;
+    width: 50%;
+}
+
+.resume-picture-container {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.resume-image {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    margin: auto; 
+    background-color: #2ABFFF;
+    padding: 5px;
+}
+
+.container-resume-download {
+    align-items: center;
+    padding-bottom: 56px;
+}
+
+.resume-subtitle {
+    margin-bottom: 42px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* FOOTER STYLES */
+/* These are styles specific to the footer on the homepage */
+
+.footer-note {
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    text-align: center;
+}

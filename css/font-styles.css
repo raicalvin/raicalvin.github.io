@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'urbanist-extrabold';
+    src: url(../fonts/urbanist-extrabold.ttf);
+}
+
+@font-face {
+    font-family: 'urbanist-medium';
+    src: url(../fonts/urbanist-medium.ttf);
+}
+
+@font-face {
+    font-family: 'urbanist-thin';
+    src: url(../fonts/urbanist-thin.ttf);
+}
+
+@font-face {
+    font-family: 'urbanist-semibold';
+    src: url(../fonts/urbanist-semibold.ttf);
+}
+
+@font-face {
+    font-family: 'urbanist-bold';
+    src: url(../fonts/urbanist-bold.ttf);
+}
+
+@font-face {
+    font-family: 'urbanist-regular';
+    src: url(../fonts/urbanist-regular.ttf);
+}
