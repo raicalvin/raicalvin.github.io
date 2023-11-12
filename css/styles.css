@@ -141,6 +141,23 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
+.container-augmented-reality-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 96px;
+    width: 996px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    gap: 12px;
+    justify-content: center;
+}
+
+.augmented-reality-project-thumb {
+    width: 200px;
+    height: auto;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* ANDROID PROJECTS STYLES */
 /* These are styles specific to the android projects part of the site */
