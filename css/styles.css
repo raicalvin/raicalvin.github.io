@@ -153,9 +153,47 @@ p {
     justify-content: center;
 }
 
+.augmented-reality-item-container {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
 .augmented-reality-project-thumb {
     width: 200px;
     height: auto;
+}
+
+.augmented-reality-project-thumb-overlay {
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.augmented-reality-item-container:hover .augmented-reality-project-thumb-overlay {
+    opacity: 0.7;
+}
+
+.augmented-reality-project-thumb-caption {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.augmented-reality-item-container:hover .augmented-reality-project-thumb-caption {
+    opacity: 1;
 }
 
 /* === === === === === === === === === === === === === === === */
