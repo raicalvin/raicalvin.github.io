@@ -23,9 +23,19 @@
     font-size: 28px;
 }
 
+.typ-section-fun-quote {
+    font-family: 'urbanist-medium';
+    font-size: 24px;
+}
+
 .typ-body-text {
     font-family: 'urbanist-regular';
     font-size: 18px;
+}
+
+.typ-button {
+    font-family: 'urbanist-medium';
+    font-size: 12px;
 }
 
 .typ-caption {

@@ -24,12 +24,12 @@ p {
     text-align: center;
     text-decoration: none;
     background-color: transparent;
-    border: 2px solid white;
+    border: 1px solid white;
     color: white;
     transition-duration: 0.25s;
     cursor: pointer;
-    width: 160px;
-    height: 48px;
+    width: 140px;
+    height: 36px;
 }
 
 .primary-button-light:hover {
@@ -41,12 +41,12 @@ p {
     text-align: center;
     text-decoration: none;
     background-color: transparent;
-    border: 2px solid black;
+    border: 1px solid black;
     color: black;
     transition-duration: 0.25s;
     cursor: pointer;
-    width: 160px;
-    height: 48px;
+    width: 140px;
+    height: 36px;
 }
 
 .primary-button-dark:hover {
