@@ -56,3 +56,123 @@
     justify-content: start;
     flex-direction: column;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPHONE (363px) */
+/* These are the media queries for a 363px iPhone width */
+
+@media screen and (min-width: 360px) {
+
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .typ-title-header {
+        font-size: 30px;
+    }
+
+    .typ-title-subheader {
+        font-size: 18px;
+    }
+
+    .typ-display-subheader {
+        font-size: 12px;
+    }
+
+    .typ-section-header {
+        font-size: 18px;
+    }
+
+    .typ-body-text {
+        font-size: 14px;
+    }
+
+    .primary-button-light {
+        width: 120px;
+        height: 32px;
+    }
+
+    .primary-button-dark {
+        width: 120px;
+        height: 32px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR ??? */
+/* These are the media queries for ??? */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPAD PRO */
+/* These are the media queries for a 1024px iPad width */
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+}
+
+/* Media Queries for Desktop Width (1200px) */
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR DESKTOP */
+/* These are the media queries for a 1200px Desktop width */
+
+@media screen and (min-width: 1200px) {
+
+    .container {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .container-header {
+        padding-top: 300px;
+    }
+
+    .hero-bottom-chevron {
+        height: 28px;
+    }
+    
+    .typ-title-header {
+        font-size: 60px;
+    }
+
+    .typ-title-subheader {
+        font-size: 36px;
+    }
+
+    .typ-display-subheader {
+        font-size: 24px;
+    }
+
+    .typ-section-header {
+        font-size: 36px;
+    }
+
+    .typ-body-text {
+        font-size: 18px;
+    }
+
+    .primary-button-light {
+        width: 140px;
+        height: 36px;
+    }
+
+    .primary-button-dark {
+        width: 140px;
+        height: 36px;
+    }
+
+}
