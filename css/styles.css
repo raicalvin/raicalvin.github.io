@@ -22,6 +22,21 @@ p {
 }
 
 /* === === === === === === === === === === === === === === === */
+/* CONTAINERS */
+/* These are the main boxes within each of your sections that pertain to responsive rules. */
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vertical-flex-container {
+    justify-content: start;
+    flex-direction: column;
+}
+
+/* === === === === === === === === === === === === === === === */
 /* BUTTON STYLES */
 /* These are the default button styles applied to all buttons. */
 

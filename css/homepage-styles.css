@@ -3,6 +3,47 @@
 */
 
 /* === === === === === === === === === === === === === === === */
+/* SECTIONS */
+/* This are full-width sections of your websites that will house your containers */
+
+.section-header {
+    background: url("../img/hero-image.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.section-about-me {
+    background-color: black;
+}
+
+.section-fun-quote {
+    background-color: #E7E7E7;
+}
+
+.section-augmented-reality {
+    background-color: black;
+    height: 900px;
+}
+
+.section-android-projects {
+    background-color: black;
+    height: 900px;
+}
+
+.section-resume {
+    background-color: white;
+}
+
+.section-footer {
+    background-color: black;
+}
+
+/* === === === === === === === === === === === === === === === */
 /* HERO STYLES */
 /* These are styles specific to the hero part in the home page */
 
@@ -25,10 +66,6 @@
 /* === === === === === === === === === === === === === === === */
 /* ABOUT ME STYLES */
 /* These are styles specific to the about-me part */
-
-.container-about-me {
-    padding-top: 96px;
-}
 
 .about-me-title {
     background: -webkit-linear-gradient(30deg, white, #2ABFFF);

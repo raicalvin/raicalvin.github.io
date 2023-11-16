@@ -1,0 +1,46 @@
+/* 
+    Styles defined in this file are specific to the responsive elements
+    of the home page of the website.
+*/
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPHONE (363px) */
+/* These are the media queries for a 363px iPhone width */
+
+@media screen and (min-width: 360px) {
+
+    .container-header > button {
+        margin-top: 34px;
+    }
+
+    .section-about-me {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR DESKTOP */
+/* These are the media queries for a 1200px Desktop width */
+
+@media screen and (min-width: 1200px) {
+
+    .container-header {
+        padding-top: 300px;
+    }
+
+    .container-header > button {
+        margin-top: 58px;
+    }
+
+    .hero-bottom-chevron {
+        height: 28px;
+    }
+
+    .section-about-me {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+}
