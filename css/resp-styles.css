@@ -1,3 +1,8 @@
+/* 
+    Styles defined in this file are specific to the responsive elements
+    of the home page of the website.
+*/
+
 /* === === === === === === === === === === === === === === === */
 /* SECTIONS */
 /* This are full-width sections of your websites that will house your containers */
@@ -68,6 +73,10 @@
         padding-right: 32px;
     }
 
+    .container-header > button {
+        margin-top: 34px;
+    }
+
     .primary-button-light {
         width: 120px;
         height: 32px;
@@ -103,7 +112,7 @@
         padding-left: 42px;
         padding-right: 42px;
     }
-    
+
 }
 
 /* Media Queries for Desktop Width (1200px) */
@@ -117,6 +126,10 @@
     .container {
         padding-left: 48px;
         padding-right: 48px;
+    }
+
+    .container-header > button {
+        margin-top: 58px;
     }
 
     .container-header {
