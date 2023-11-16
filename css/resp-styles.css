@@ -68,26 +68,6 @@
         padding-right: 32px;
     }
 
-    .typ-title-header {
-        font-size: 30px;
-    }
-
-    .typ-title-subheader {
-        font-size: 18px;
-    }
-
-    .typ-display-subheader {
-        font-size: 12px;
-    }
-
-    .typ-section-header {
-        font-size: 18px;
-    }
-
-    .typ-body-text {
-        font-size: 14px;
-    }
-
     .primary-button-light {
         width: 120px;
         height: 32px;
@@ -118,10 +98,12 @@
 /* These are the media queries for a 1024px iPad width */
 
 @media screen and (min-width: 1024px) {
+
     .container {
         padding-left: 42px;
         padding-right: 42px;
     }
+    
 }
 
 /* Media Queries for Desktop Width (1200px) */
@@ -143,26 +125,6 @@
 
     .hero-bottom-chevron {
         height: 28px;
-    }
-    
-    .typ-title-header {
-        font-size: 60px;
-    }
-
-    .typ-title-subheader {
-        font-size: 36px;
-    }
-
-    .typ-display-subheader {
-        font-size: 24px;
-    }
-
-    .typ-section-header {
-        font-size: 36px;
-    }
-
-    .typ-body-text {
-        font-size: 18px;
     }
 
     .primary-button-light {
