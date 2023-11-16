@@ -18,6 +18,11 @@
         padding-bottom: 72px;
     }
 
+    .section-fun-quote {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -41,6 +46,11 @@
     .section-about-me {
         padding-top: 96px;
         padding-bottom: 96px;
+    }
+
+    .section-fun-quote {
+        padding-top: 196px;
+        padding-bottom: 196px;
     }
 
 }
