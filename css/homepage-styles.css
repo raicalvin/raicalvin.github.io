@@ -27,7 +27,7 @@
 
 .section-augmented-reality {
     background-color: black;
-    height: 900px;
+    height: auto;
 }
 
 .section-android-projects {
@@ -78,8 +78,6 @@
 
 .about-me-description {
     color: #E7E7E7;
-    padding-top: 42px;
-    line-height: 140%;
 }
 
 .about-me-ending-line {
@@ -108,10 +106,6 @@
 /* AUGMENTED REALITY STYLES */
 /* These are styles specific to the augmented reality part of the site */
 
-.container-augmented-reality {
-    padding-top: 96px;
-}
-
 .augmented-reality-title {
     background: -webkit-linear-gradient(30deg, white, #B300FF);
     background-clip: text;
@@ -121,30 +115,27 @@
     -webkit-text-fill-color: transparent;
 }
 
-.container-augmented-reality-thumbs {
+.container-augmented-reality-projects {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 96px;
-    width: 996px;
     left: 0px;
     right: 0px;
     margin: auto;
-    gap: 12px;
     justify-content: center;
 }
 
-.augmented-reality-item-container {
+.augmented-reality-project {
     position: relative;
     align-items: center;
     text-align: center;
 }
 
-.augmented-reality-project-thumb {
+.augmented-reality-project-screenshot {
     width: 200px;
     height: auto;
 }
 
-.augmented-reality-project-thumb-overlay {
+.augmented-reality-project-overlay {
     background-color: black;
     position: absolute;
     top: 0px;
@@ -157,7 +148,7 @@
     transition: 0.5s;
 }
 
-.augmented-reality-item-container:hover .augmented-reality-project-thumb-overlay {
+.augmented-reality-project:hover .augmented-reality-project-overlay {
     opacity: 0.7;
 }
 
@@ -172,7 +163,7 @@
     transition: 0.5s;
 }
 
-.augmented-reality-item-container:hover .augmented-reality-project-thumb-caption {
+.augmented-reality-project:hover .augmented-reality-project-thumb-caption {
     opacity: 1;
 }
 

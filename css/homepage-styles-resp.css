@@ -18,9 +18,29 @@
         padding-bottom: 72px;
     }
 
+    .about-me-description {
+        padding-top: 34px;
+    }
+
     .section-fun-quote {
         padding-top: 76px;
         padding-bottom: 76px;
+    }
+
+    .section-augmented-reality {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+    .container-augmented-reality-projects {
+        padding-top: 34px;
+        width: auto;
+        gap: 4px;
+    }
+
+    .augmented-reality-project-screenshot {
+        width: 140px;
+        height: auto;
     }
 
 }
@@ -48,9 +68,28 @@
         padding-bottom: 96px;
     }
 
+    .about-me-description {
+        padding-top: 42px;
+    }
+
     .section-fun-quote {
         padding-top: 196px;
         padding-bottom: 196px;
+    }
+
+    .section-augmented-reality {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .container-augmented-reality-projects {
+        padding-top: 96px;
+        width: 996px;
+        gap: 12px;
+    }
+
+    .augmented-reality-project-screenshot {
+        width: 200px;
     }
 
 }
