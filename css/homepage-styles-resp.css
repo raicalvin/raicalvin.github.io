@@ -43,6 +43,26 @@
         height: auto;
     }
 
+    .section-android-projects {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+    .container-android-projects {
+        padding-top: 34px;
+        width: auto;
+    }
+
+    .android-project-item {
+        height: 150px;
+        width: 150px;
+        margin: 1px;
+    }
+
+    .item-android-project-thumb-title {
+        top: 14px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -90,6 +110,26 @@
 
     .augmented-reality-project-screenshot {
         width: 200px;
+    }
+
+    .section-android-projects {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .container-android-projects {
+        padding-top: 96px;
+        width: 908px;
+    }
+
+    .android-project-item {
+        height: 225px;
+        width: 225px;
+        margin: 1px;
+    }
+
+    .item-android-project-thumb-title {
+        top: 22px;
     }
 
 }
