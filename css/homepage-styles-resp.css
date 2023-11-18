@@ -87,6 +87,11 @@
         margin-bottom: 24px;
     }
 
+    .footer-note {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -177,6 +182,11 @@
 
     .resume-subtitle {
         margin-bottom: 42px;
+    }
+
+    .footer-note {
+        padding-top: 18px;
+        padding-bottom: 18px;
     }
 
 }
