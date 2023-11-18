@@ -13,11 +13,6 @@
         margin-top: 34px;
     }
 
-    .section-about-me {
-        padding-top: 72px;
-        padding-bottom: 72px;
-    }
-
     .about-me-description {
         padding-top: 34px;
     }
@@ -27,7 +22,7 @@
         padding-bottom: 76px;
     }
 
-    .section-augmented-reality {
+    .section-vertical-padding {
         padding-top: 76px;
         padding-bottom: 76px;
     }
@@ -43,11 +38,6 @@
         height: auto;
     }
 
-    .section-android-projects {
-        padding-top: 76px;
-        padding-bottom: 76px;
-    }
-
     .container-android-projects {
         padding-top: 34px;
         width: auto;
@@ -61,11 +51,6 @@
 
     .item-android-project-thumb-title {
         top: 14px;
-    }
-
-    .section-resume {
-        padding-top: 76px;
-        padding-bottom: 76px;
     }
 
     .resume-image-bar-container {
