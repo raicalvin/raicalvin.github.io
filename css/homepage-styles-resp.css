@@ -80,6 +80,30 @@
 }
 
 /* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR ??? */
+/* These are the media queries for ??? */
+
+@media screen and (min-width: 768px) {
+
+    .augmented-reality-project-screenshot {
+        width: 160px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPAD PRO */
+/* These are the media queries for a 1024px iPad width */
+
+@media screen and (min-width: 1024px) {
+
+    .augmented-reality-project-screenshot {
+        width: 180px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
 /* MEDIA QUERIES FOR DESKTOP */
 /* These are the media queries for a 1200px Desktop width */
 
