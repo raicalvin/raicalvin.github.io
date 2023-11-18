@@ -105,6 +105,19 @@
         width: 175px;
     }
 
+    .resume-image {
+        width: 160px;
+        height: 160px;
+    }
+
+    .resume-left-blue-box {
+        height: 170px;
+    }
+
+    .resume-subtitle {
+        margin-bottom: 30px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -131,6 +144,19 @@
     .android-project-item {
         height: 200px;
         width: 200px;
+    }
+
+    .resume-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .resume-left-blue-box {
+        height: 210px;
+    }
+
+    .resume-subtitle {
+        margin-bottom: 36px;
     }
 
 }
