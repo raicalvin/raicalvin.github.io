@@ -17,6 +17,14 @@
         font-size: 16px;
     }
 
+    .typ-section-header {
+        font-size: 24px;
+    }
+
+    .typ-section-fun-quote {
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -30,6 +38,14 @@
     }
 
     .typ-display-subheader {
+        font-size: 20px;
+    }
+
+    .typ-section-header {
+        font-size: 30px;
+    }
+
+    .typ-section-fun-quote {
         font-size: 20px;
     }
 
