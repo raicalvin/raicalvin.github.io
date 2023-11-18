@@ -29,7 +29,7 @@
 
     .container-augmented-reality-projects {
         padding-top: 34px;
-        width: auto;
+        width: 284px;
         gap: 4px;
     }
 
@@ -40,7 +40,7 @@
 
     .container-android-projects {
         padding-top: 34px;
-        width: auto;
+        width: 304px;
     }
 
     .android-project-item {
@@ -89,6 +89,22 @@
         width: 160px;
     }
 
+    .container-augmented-reality-projects {
+        padding-top: 52px;
+        width: 664px;
+        gap: 8px;
+    }
+
+    .container-android-projects {
+        padding-top: 52px;
+        width: 708px;
+    }
+
+    .android-project-item {
+        height: 175px;
+        width: 175px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -99,6 +115,22 @@
 
     .augmented-reality-project-screenshot {
         width: 180px;
+    }
+
+    .container-augmented-reality-projects {
+        padding-top: 74px;
+        width: 744px;
+        gap: 8px;
+    }
+
+    .container-android-projects {
+        padding-top: 74px;
+        width: 908px;
+    }
+
+    .android-project-item {
+        height: 200px;
+        width: 200px;
     }
 
 }
