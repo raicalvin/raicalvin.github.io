@@ -1,0 +1,84 @@
+/* 
+    Styles in this file are specific to the responsiveness of the 
+    typography and font styles used across the website.
+*/
+
+@media screen and (min-width: 768px) {
+
+    .typ-title-header {
+        font-size: 40px;
+    }
+
+    .typ-title-subheader {
+        font-size: 24px;
+    }
+
+    .typ-display-subheader {
+        font-size: 16px;
+    }
+
+    .typ-section-header {
+        font-size: 24px;
+    }
+
+    .typ-section-fun-quote {
+        font-size: 16px;
+    }
+
+    .typ-body-text {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .typ-title-header {
+        font-size: 50px;
+    }
+
+    .typ-title-subheader {
+        font-size: 30px;
+    }
+
+    .typ-display-subheader {
+        font-size: 20px;
+    }
+
+    .typ-section-header {
+        font-size: 30px;
+    }
+
+    .typ-section-fun-quote {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .typ-title-header {
+        font-size: 60px;
+    }
+
+    .typ-title-subheader {
+        font-size: 36px;
+    }
+
+    .typ-display-subheader {
+        font-size: 24px;
+    }
+
+    .typ-section-header {
+        font-size: 36px;
+    }
+
+    .typ-section-fun-quote {
+        font-size: 24px;
+    }
+
+    .typ-body-text {
+        font-size: 18px;
+    }
+
+}

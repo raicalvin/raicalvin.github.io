@@ -1,0 +1,71 @@
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPHONE (363px) */
+/* These are the media queries for a 363px iPhone width */
+
+@media screen and (min-width: 360px) {
+
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .primary-button-light {
+        width: 120px;
+        height: 32px;
+    }
+
+    .primary-button-dark {
+        width: 120px;
+        height: 32px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR ??? */
+/* These are the media queries for ??? */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPAD PRO */
+/* These are the media queries for a 1024px iPad width */
+
+@media screen and (min-width: 1024px) {
+
+    .container {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR DESKTOP */
+/* These are the media queries for a 1200px Desktop width */
+
+@media screen and (min-width: 1200px) {
+
+    .container {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .primary-button-light {
+        width: 140px;
+        height: 36px;
+    }
+
+    .primary-button-dark {
+        width: 140px;
+        height: 36px;
+    }
+
+}

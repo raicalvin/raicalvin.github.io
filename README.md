@@ -8,6 +8,8 @@ If you need to contact me, there's a section at the very bottom of this README. 
 
 ## Version History
 
+**v0.4**: Add site responsiveness for smaller screens
+**v0.3**: Finish templates for all remaining homepage sections
 **v0.2**: Create initial project templates
 **v0.1**: Update initial README file
 
