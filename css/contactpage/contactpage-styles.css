@@ -1,0 +1,12 @@
+/* 
+    Styles defined in this file apply only to the contac page of this website.
+*/
+
+/* === === === === === === === === === === === === === === === */
+/* SECTIONS */
+/* This are full-width sections of your websites that will house your containers */
+
+.section-contact-header {
+    background-color: black;
+    height: 532px;
+}
