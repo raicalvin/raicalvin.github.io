@@ -1,0 +1,17 @@
+/* 
+    Styles defined in this file are specific to the responsive elements
+    of the contact page of the website.
+*/
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPHONE (363px) */
+/* These are the media queries for a 363px iPhone width */
+
+@media screen and (min-width: 360px) {
+
+    .section-vertical-padding {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+    
+}

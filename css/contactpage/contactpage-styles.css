@@ -19,3 +19,16 @@
     color: white;
     padding-top: 280px;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* SOCIAL MEDIA STYLES */
+/* These are styles specific to the social media part */
+
+.social-media-title {
+    background: -webkit-linear-gradient(30deg, #E00303, #FFA800);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
