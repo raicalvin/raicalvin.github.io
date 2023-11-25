@@ -10,3 +10,12 @@
     background-color: black;
     height: 532px;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* CONTACT HERO STYLES */
+/* These are styles specific to the hero part in the contact page */
+
+.container-contact-header {
+    color: white;
+    padding-top: 280px;
+}
