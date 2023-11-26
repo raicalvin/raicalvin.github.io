@@ -31,4 +31,34 @@
     display: block;
     width: fit-content;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+}
+
+/* Contact Card Styles */
+
+.contact-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    display: flex;
+    border: 2px solid black;
+    margin-bottom: 24px;
+    padding-right: 22px;
+}
+
+.contact-card-logo {
+    height: 40px;
+    width: 40px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 22px;
+    margin-right: 12px;
+}
+
+.contact-card-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
