@@ -11,6 +11,10 @@
     height: 532px;
 }
 
+.section-footer {
+    background-color: black;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* CONTACT HERO STYLES */
 /* These are styles specific to the hero part in the contact page */
@@ -21,20 +25,8 @@
 }
 
 /* === === === === === === === === === === === === === === === */
-/* SOCIAL MEDIA STYLES */
-/* These are styles specific to the social media part */
-
-.social-media-title {
-    background: -webkit-linear-gradient(30deg, #E00303, #FFA800);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 32px;
-}
-
-/* Contact Card Styles */
+/* CONTACT CARD STYLES */
+/* These are styles specific to a generic contact card */
 
 .contact-cards-container {
     display: flex;
@@ -46,6 +38,12 @@
     border: 2px solid black;
     margin-bottom: 24px;
     padding-right: 22px;
+}
+
+.contact-card:hover {
+    border: 2px solid #00C2FF;
+    transition-duration: 0.25s;
+    cursor: pointer;
 }
 
 .contact-card-logo {
@@ -61,6 +59,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* SOCIAL MEDIA STYLES */
+/* These are styles specific to the social media part */
+
+.social-media-title {
+    background: -webkit-linear-gradient(30deg, #E00303, #FFA800);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -91,4 +103,15 @@
     -webkit-text-fill-color: transparent;
     margin-bottom: 32px;
     margin-top: 48px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* FOOTER STYLES */
+/* These are styles specific to the footer on the contact page */
+
+.footer-note {
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    text-align: center;
 }
