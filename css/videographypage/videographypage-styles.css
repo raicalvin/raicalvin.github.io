@@ -1,0 +1,25 @@
+/* 
+    Styles defined in this file apply only to the videography page of this website.
+*/
+
+/* === === === === === === === === === === === === === === === */
+/* SECTIONS */
+/* This are full-width sections of your websites that will house your containers */
+
+.section-videography-header {
+    background-color: black;
+    height: 532px;
+}
+
+.section-footer {
+    background-color: black;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* VIDEOGRAPHY HERO STYLES */
+/* These are styles specific to the hero part in the videography page */
+
+.container-contact-header {
+    color: white;
+    padding-top: 280px;
+}
