@@ -14,6 +14,16 @@
         padding-bottom: 76px;
     }
 
+    .section-latest-cinematic {
+
+    }
+
+    .latest-cinematic-video {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    }
+
+
 }
 
 
@@ -23,6 +33,11 @@
 
 @media screen and (min-width: 768px) {
 
+    .latest-cinematic-video {
+        margin-right: 36px;
+        margin-left: 36px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -31,6 +46,11 @@
 
 @media screen and (min-width: 1024px) {
 
+    .latest-cinematic-video {
+        margin-right: 96px;
+        margin-left: 96px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -38,5 +58,12 @@
 /* These are the media queries for a 1200px Desktop width */
 
 @media screen and (min-width: 1200px) {
+
+    .latest-cinematic-video {
+        width: 1000px;   
+        height: 563px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
 }

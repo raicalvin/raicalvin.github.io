@@ -23,3 +23,22 @@
     color: white;
     padding-top: 280px;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* LATEST CINEMATIC STYLES */
+/* These are styles specific to the latest cinematic part */
+
+.latest-cinematic-title {
+    background: -webkit-linear-gradient(30deg, #842EAD, #0E0E0E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+}
+
+.latest-cinematic-video-container {
+    display: flex;
+    justify-content: center;
+}
