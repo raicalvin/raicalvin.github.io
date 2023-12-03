@@ -4,6 +4,11 @@
 
 @media screen and (min-width: 360px) {
 
+    .section-fun-quote {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
     .container {
         padding-left: 32px;
         padding-right: 32px;
@@ -52,6 +57,11 @@
 /* These are the media queries for a 1200px Desktop width */
 
 @media screen and (min-width: 1200px) {
+
+    .section-fun-quote {
+        padding-top: 196px;
+        padding-bottom: 196px;
+    }
 
     .container {
         padding-left: 48px;

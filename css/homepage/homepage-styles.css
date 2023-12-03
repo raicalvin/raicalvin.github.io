@@ -7,7 +7,7 @@
 /* This are full-width sections of your websites that will house your containers */
 
 .section-header {
-    background: url("../img/hero-image.jpg"); 
+    background: url("../../img/hero-image.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -19,10 +19,6 @@
 
 .section-about-me {
     background-color: black;
-}
-
-.section-fun-quote {
-    background-color: #E7E7E7;
 }
 
 .section-augmented-reality {
@@ -85,21 +81,6 @@
     height: 2px;
     background-color: #2ABFFF;
     margin-top: 42px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* FUN QUOTES STYLES */
-/* These are styles specific to the one-line sections breaking up the website */
-
-.container-fun-quote {
-    align-items: center;
-    justify-content: center;
-}
-
-.fun-quote-colored-word {
-    font-family: inherit;
-    font-size: inherit;
-    color: #0096FF;
 }
 
 /* === === === === === === === === === === === === === === === */
