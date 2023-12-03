@@ -23,9 +23,12 @@
         width: 100%;
     }
 
+    .other-video {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    }
 
 }
-
 
 /* === === === === === === === === === === === === === === === */
 /* MEDIA QUERIES FOR ??? */
@@ -36,6 +39,10 @@
     .latest-cinematic-video {
         margin-right: 36px;
         margin-left: 36px;
+    }
+
+    .other-video {
+        width: 340px;
     }
 
 }
@@ -51,6 +58,10 @@
         margin-left: 96px;
     }
 
+    .other-video {
+        width: 460px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -64,6 +75,10 @@
         height: 563px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .other-video {
+        width: 540px;
     }
 
 }
