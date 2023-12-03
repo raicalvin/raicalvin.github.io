@@ -28,6 +28,13 @@
         width: 100%;
     }
 
+    .videography-bento-item-box {
+        aspect-ratio: 4 / 3;
+        width: 49%;
+        background-color: blueviolet;
+        background-clip: padding-box;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */

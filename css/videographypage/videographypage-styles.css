@@ -65,3 +65,11 @@
     gap: 4px;
 }
 
+.container-equipment-and-gear {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
