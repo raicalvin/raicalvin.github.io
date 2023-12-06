@@ -73,3 +73,12 @@
     padding-top: 4px;
     padding-bottom: 4px;
 }
+
+.videography-bento-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}

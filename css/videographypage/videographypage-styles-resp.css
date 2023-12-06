@@ -30,7 +30,7 @@
 
     .videography-bento-item-box {
         aspect-ratio: 4 / 3;
-        width: 49%;
+        width: 100%;
         background-color: blueviolet;
         background-clip: padding-box;
     }
@@ -50,6 +50,10 @@
 
     .other-video {
         width: 340px;
+    }
+
+    .videography-bento-item-box {
+        width: 49%;
     }
 
 }
