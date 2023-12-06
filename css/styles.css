@@ -22,6 +22,14 @@ p {
 }
 
 /* === === === === === === === === === === === === === === === */
+/* SECTIONS */
+/* These are the primary sections of your website that are used everywhere. */
+
+.section-fun-quote {
+    background-color: #E7E7E7;
+}
+
+/* === === === === === === === === === === === === === === === */
 /* CONTAINERS */
 /* These are the main boxes within each of your sections that pertain to responsive rules. */
 
@@ -72,4 +80,19 @@ p {
 .primary-button-dark:hover {
     background-color: black;
     color: white;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* FUN QUOTES STYLES */
+/* These are styles specific to the one-line sections breaking up the website */
+
+.container-fun-quote {
+    align-items: center;
+    justify-content: center;
+}
+
+.fun-quote-colored-word {
+    font-family: inherit;
+    font-size: inherit;
+    color: #0096FF;
 }
