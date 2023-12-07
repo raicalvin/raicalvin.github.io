@@ -249,3 +249,33 @@
     padding-bottom: 34px;
     text-align: center;
 }
+
+/* === === === === === === === === === === === === === === === */
+/* NAVIGATION STYLES */
+/* These are styles specific to the nav menu and nav bar */
+
+.navigation {
+    display: flex;
+    /* background-color: #b300ff15; */
+    padding-top: 112px;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    gap: 4px;
+    margin: 0;
+    /* border: solid 1px red; */
+}
+
+.menu a:hover {
+    color: #2ABFFF;
+    transition: 0.25s;
+}
+
+.menu-item {
+    color: aliceblue;
+    text-decoration: none;
+}
