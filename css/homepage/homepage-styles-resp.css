@@ -13,6 +13,10 @@
         display: none;
     }
 
+    .menu-mobile {
+        display: flex;
+    }
+
     .menu-hamburger {
         display: flex;
     }
@@ -90,6 +94,10 @@
 
     .menu {
         display: flex;
+    }
+
+    .menu-mobile {
+        display: none;
     }
     
     .menu-hamburger {

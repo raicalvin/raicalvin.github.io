@@ -277,4 +277,27 @@
 .menu-item {
     color: aliceblue;
     text-decoration: none;
+    padding: 0px 4px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* NAVIGATION MOBILE STYLES */
+/* These are styles specific to the mobile version of navigation */
+
+.navigation-mobile {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 90%;
+    z-index: 1;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-mobile {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
 }
