@@ -256,7 +256,6 @@
 
 .navigation {
     display: flex;
-    /* background-color: #b300ff15; */
     padding-top: 112px;
     justify-content: flex-end;
 }
@@ -280,12 +279,17 @@
     padding: 0px 4px;
 }
 
+.navigation-inactive {
+    visibility: hidden;
+}
+
 /* === === === === === === === === === === === === === === === */
 /* NAVIGATION MOBILE STYLES */
 /* These are styles specific to the mobile version of navigation */
 
 .navigation-mobile {
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background: #000;
@@ -294,10 +298,19 @@
     position: absolute;
     align-items: center;
     justify-content: center;
+    visibility: hidden;
 }
 
 .menu-mobile {
     flex-direction: column;
     text-align: center;
     gap: 24px;
+}
+
+.navigation-mobile-active {
+    visibility: visible;
+}
+
+.mobile-menu-close {
+    margin-top: 32px;
 }

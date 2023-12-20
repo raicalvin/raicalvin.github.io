@@ -28,36 +28,33 @@
         <!-- Hero Header -->
         <header class="section-header">
 
-            <!-- Navigation Menu -->
-            <nav class="navigation container">
-                <ul class="menu">
-                    <li><a href="#" class="typ-body-text menu-item">Hello</a></li>
-                    <li class="typ-body-text menu-item">|</li>
-                    <li><a href="#" class="typ-body-text menu-item">Puffin</a></li>
-                    <li class="typ-body-text menu-item">|</li>
-                    <li><a href="#" class="typ-body-text menu-item">Video</a></li>
-                    <li class="typ-body-text menu-item">|</li>
-                    <li><a href="#" class="typ-body-text menu-item">Archive</a></li>
+            <!-- Mobile Navigation Menu -->
+            <nav id="navmenumobile" class="navigation-mobile">
+                <ul class="menu-mobile">
+                    <li onclick="toggleNavigationMenu()"><a href="pages/videographypage.html"
+                            class="typ-body-text menu-item">Videography</a></li>
                 </ul>
-                <img class="menu-hamburger" src="icons/menu-bar-icon.svg"/>
+                <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="icons/close_icon_white.svg" />
             </nav>
 
-            <!-- Mobile Navigation Menu -->
-            <!-- <nav class="navigation-mobile">
-                <ul class="menu-mobile">
-                    <li><a href="#" class="typ-body-text menu-item">Hello</a></li>
-                    <li><a href="#" class="typ-body-text menu-item">Puffin</a></li>
-                    <li><a href="#" class="typ-body-text menu-item">Video</a></li>
-                    <li><a href="#" class="typ-body-text menu-item">Archive</a></li>
+            <!-- Navigation Menu -->
+            <nav id="navmenu" class="navigation container">
+                <ul class="menu">
+                    <li><a href="pages/videographypage.html" class="typ-body-text menu-item">Videography</a></li>
+                    <li class="typ-body-text menu-item">|</li>
                 </ul>
-            </nav> -->
+                <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="icons/menu-bar-icon.svg" />
+            </nav>
+
+
 
             <div class="container vertical-flex-container container-header">
                 <p class="typ-title-subheader">Hi,</p>
                 <p class="typ-title-header">I'm Calvin.</p>
                 <p class="typ-display-subheader">An Android & iOS Software Engineer.</p>
-                <button onclick="window.location.href='pages/contactpage.html'" class="primary-button-light typ-button-text">Contact</button>
-                <img class="hero-bottom-chevron chevron-bounce" src="icons/chevron_down_light.svg"/>
+                <button onclick="window.location.href='pages/contactpage.html'"
+                    class="primary-button-light typ-button-text">Contact</button>
+                <img class="hero-bottom-chevron chevron-bounce" src="icons/chevron_down_light.svg" />
             </div>
         </header>
 
@@ -65,7 +62,12 @@
         <section class="section-about-me section-vertical-padding">
             <div class="container vertical-flex-container">
                 <p class="typ-section-header about-me-title">About Me</p>
-                <p class="typ-body-text about-me-description">I believe the beauty of technology comes at the fine balance of simplistic design, efficient code, and a passion for building things. And I've always had a passion for building things. I'm a developer, a designer, and a problem-solver. And a lot of what I do has been influenced by my educational background in engineering. Creating clean, elegant, and reliable products for a user to experience is central in all my projects and delivering those experiences with the people I work with is central to my life.</p>
+                <p class="typ-body-text about-me-description">I believe the beauty of technology comes at the fine
+                    balance of simplistic design, efficient code, and a passion for building things. And I've always had
+                    a passion for building things. I'm a developer, a designer, and a problem-solver. And a lot of what
+                    I do has been influenced by my educational background in engineering. Creating clean, elegant, and
+                    reliable products for a user to experience is central in all my projects and delivering those
+                    experiences with the people I work with is central to my life.</p>
                 <div class="about-me-ending-line"></div>
             </div>
         </section>
@@ -73,7 +75,8 @@
         <!-- Fun Quote Section #1 -->
         <section class="section-fun-quote">
             <div class="container container-fun-quote">
-                <p class="typ-section-fun-quote fun-quote-text">I love to <span class="fun-quote-colored-word">design</span>. Simplicity is key to a positive user
+                <p class="typ-section-fun-quote fun-quote-text">I love to <span
+                        class="fun-quote-colored-word">design</span>. Simplicity is key to a positive user
                     experience.</p>
             </div>
         </section>
@@ -84,22 +87,24 @@
                 <p class="typ-section-header augmented-reality-title">Augmented Reality</p>
                 <div class="container-augmented-reality-projects">
                     <div class="augmented-reality-project">
-                        <img class="augmented-reality-project-screenshot" src="img/ar-project-1-gif.GIF"/>
+                        <img class="augmented-reality-project-screenshot" src="img/ar-project-1-gif.GIF" />
                         <div class="augmented-reality-project-overlay"></div>
-                        <a href="https://github.com/raicalvin/iosar-the-daily-prophet"><p class="typ-caption augmented-reality-project-thumb-caption">The Boy Who Lived</p></a>
+                        <a href="https://github.com/raicalvin/iosar-the-daily-prophet">
+                            <p class="typ-caption augmented-reality-project-thumb-caption">The Boy Who Lived</p>
+                        </a>
                     </div>
                     <div class="augmented-reality-project">
-                        <img class="augmented-reality-project-screenshot" src="img/ar-project-2-gif.GIF"/>
+                        <img class="augmented-reality-project-screenshot" src="img/ar-project-2-gif.GIF" />
                         <div class="augmented-reality-project-overlay"></div>
                         <p class="typ-caption augmented-reality-project-thumb-caption">Green Giant</p>
                     </div>
                     <div class="augmented-reality-project">
-                        <img class="augmented-reality-project-screenshot" src="img/ar-project-3-gif.GIF"/>
+                        <img class="augmented-reality-project-screenshot" src="img/ar-project-3-gif.GIF" />
                         <div class="augmented-reality-project-overlay"></div>
                         <p class="typ-caption augmented-reality-project-thumb-caption">Mars Project</p>
                     </div>
                     <div class="augmented-reality-project">
-                        <img class="augmented-reality-project-screenshot" src="img/ar-project-4-gif.GIF"/>
+                        <img class="augmented-reality-project-screenshot" src="img/ar-project-4-gif.GIF" />
                         <div class="augmented-reality-project-overlay"></div>
                         <p class="typ-caption augmented-reality-project-thumb-caption">Link Anchor</p>
                     </div>
@@ -110,7 +115,8 @@
         <!-- Fun Quote Section #2 -->
         <section class="section-fun-quote">
             <div class="container container-fun-quote">
-                <p class="typ-section-fun-quote fun-quote-text">I love to <span class="fun-quote-colored-word">develop</span>. The analytical challenge of code excites me.</p>
+                <p class="typ-section-fun-quote fun-quote-text">I love to <span
+                        class="fun-quote-colored-word">develop</span>. The analytical challenge of code excites me.</p>
             </div>
         </section>
 
@@ -120,7 +126,9 @@
                 <p class="typ-section-header android-projects-title">Android Projects</p>
                 <div class="container-android-projects">
                     <div class="android-project-item">
-                        <a href="https://play.google.com/store/apps/details?id=com.a29moon.linearinterpolator"><img class="item-android-projects-thumb-grayscale" src="img/android-project-thumb-1.png" /></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.a29moon.linearinterpolator"><img
+                                class="item-android-projects-thumb-grayscale"
+                                src="img/android-project-thumb-1.png" /></a>
                         <p class="typ-caption item-android-project-thumb-title">Linear Interpolator</p>
                     </div>
                     <div class="android-project-item">
@@ -128,19 +136,27 @@
                         <p class="typ-caption item-android-project-thumb-title">ReelTime App</p>
                     </div>
                     <div class="android-project-item">
-                        <a href="https://github.com/raicalvin/abnd-p6-music-player"><img class="item-android-projects-thumb-grayscale" src="img/android-project-thumb-3.png" /></a>
+                        <a href="https://github.com/raicalvin/abnd-p6-music-player"><img
+                                class="item-android-projects-thumb-grayscale"
+                                src="img/android-project-thumb-3.png" /></a>
                         <p class="typ-caption item-android-project-thumb-title">Musical Structure App</p>
                     </div>
                     <div class="android-project-item">
-                        <a href="https://github.com/raicalvin/abnd-p4-quizroid"><img class="item-android-projects-thumb-grayscale" src="img/android-project-thumb-4.png" /></a>
+                        <a href="https://github.com/raicalvin/abnd-p4-quizroid"><img
+                                class="item-android-projects-thumb-grayscale"
+                                src="img/android-project-thumb-4.png" /></a>
                         <p class="typ-caption item-android-project-thumb-title">Quizroid</p>
                     </div>
                     <div class="android-project-item">
-                        <a href="https://github.com/raicalvin/abnd-p8-tour-guide-app"><img class="item-android-projects-thumb-grayscale" src="img/android-project-thumb-5.png" /></a>
+                        <a href="https://github.com/raicalvin/abnd-p8-tour-guide-app"><img
+                                class="item-android-projects-thumb-grayscale"
+                                src="img/android-project-thumb-5.png" /></a>
                         <p class="typ-caption item-android-project-thumb-title">Tour Guide App</p>
                     </div>
                     <div class="android-project-item">
-                        <a href="https://github.com/raicalvin/abnd-p9-news-app"><img class="item-android-projects-thumb-grayscale" src="img/android-project-thumb-6.png" /></a>
+                        <a href="https://github.com/raicalvin/abnd-p9-news-app"><img
+                                class="item-android-projects-thumb-grayscale"
+                                src="img/android-project-thumb-6.png" /></a>
                         <p class="typ-caption item-android-project-thumb-title">Guardian News App</p>
                     </div>
                     <div class="android-project-item">
@@ -158,35 +174,34 @@
         <!-- Fun Quote Section #3 -->
         <section class="section-fun-quote">
             <div class="container container-fun-quote">
-                <p class="typ-section-fun-quote fun-quote-text">And I love the <span class="fun-quote-colored-word">challenge</span>. Project idea? Let's talk!</p>
+                <p class="typ-section-fun-quote fun-quote-text">And I love the <span
+                        class="fun-quote-colored-word">challenge</span>. Project idea? Let's talk!</p>
             </div>
         </section>
 
         <!-- Resume -->
         <!-- <section class="section-resume section-vertical-padding"> -->
-            <!-- Title -->
-            <!-- <div class="container vertical-flex-container"> -->
-                <!-- <p class="typ-section-header resume-title">Resume</p> -->
-            <!-- </div> -->
-            <!-- Picture -->
-            <!-- <div class="resume-image-bar-container"> -->
-                <!-- <div class="resume-left-blue-box"></div> -->
-                <!-- <div class="resume-picture-container"> -->
-                    <!-- <img class="resume-image" src="img/resume-picture.png"> -->
-                <!-- </div> -->
-            <!-- </div> -->
-            <!-- Download -->
-            <!-- <div class="container vertical-flex-container container-resume-download"> -->
-                <!-- <p class="typ-body-text resume-subtitle">Interested in knowing more?</p> -->
-                <!-- <a href="docs/crai_resume_public.pdf" target="_blank" rel="noopener noreferrer"><button class="primary-button-dark typ-button-text">Download</button></a> -->
-            <!-- </div> -->
+        <!-- Title -->
+        <!-- <div class="container vertical-flex-container"> -->
+        <!-- <p class="typ-section-header resume-title">Resume</p> -->
+        <!-- </div> -->
+        <!-- Picture -->
+        <!-- <div class="resume-image-bar-container"> -->
+        <!-- <div class="resume-left-blue-box"></div> -->
+        <!-- <div class="resume-picture-container"> -->
+        <!-- <img class="resume-image" src="img/resume-picture.png"> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- Download -->
+        <!-- <div class="container vertical-flex-container container-resume-download"> -->
+        <!-- <p class="typ-body-text resume-subtitle">Interested in knowing more?</p> -->
+        <!-- <a href="docs/crai_resume_public.pdf" target="_blank" rel="noopener noreferrer"><button class="primary-button-dark typ-button-text">Download</button></a> -->
+        <!-- </div> -->
         <!-- </section> -->
 
         <!-- Footer -->
         <section class="section-footer">
-            <a href="pages/videographypage.html">
-                <p class="footer-note typ-caption">Made with 💙. And some JavaScript. By Calvin.</p>
-            </a>
+            <p class="footer-note typ-caption">Made with 💙. And some JavaScript. By Calvin.</p>
         </section>
 
     </main>
