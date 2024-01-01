@@ -4,6 +4,18 @@
 
 @media screen and (min-width: 360px) {
 
+    .menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+    }
+
+    .menu-hamburger {
+        display: flex;
+    }
+
     .section-fun-quote {
         padding-top: 76px;
         padding-bottom: 76px;
@@ -31,6 +43,18 @@
 /* These are the media queries for ??? */
 
 @media screen and (min-width: 768px) {
+
+    .menu {
+        display: flex;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+    
+    .menu-hamburger {
+        display: none;
+    }
 
     .container {
         padding-left: 36px;

@@ -1,0 +1,64 @@
+/* === === === === === === === === === === === === === === === */
+/* NAVIGATION STYLES */
+/* These are styles specific to the nav menu and nav bar */
+
+.navigation {
+    display: flex;
+    padding-top: 112px;
+    justify-content: flex-end;
+}
+
+.menu {
+    list-style-type: none;
+    list-style: none;
+    gap: 4px;
+    margin: 0;
+    /* border: solid 1px red; */
+}
+
+.menu a:hover {
+    color: #2ABFFF;
+    transition: 0.25s;
+}
+
+.menu-item {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0px 4px;
+}
+
+.navigation-inactive {
+    visibility: hidden;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* NAVIGATION MOBILE STYLES */
+/* These are styles specific to the mobile version of navigation */
+
+.navigation-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 90%;
+    z-index: 1;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.menu-mobile {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+
+.navigation-mobile-active {
+    visibility: visible;
+}
+
+.mobile-menu-close {
+    margin-top: 32px;
+}

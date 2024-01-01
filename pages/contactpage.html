@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/font-styles.css">
     <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/navigation/navigation-styles.css">
     <link rel="stylesheet" href="../css/contactpage/contactpage-styles.css">
     <!-- This stylesheet should be the last one to override above styles in media queries -->
     <link rel="stylesheet" href="../css/styles-resp.css">
@@ -27,6 +28,33 @@
 
         <!-- Contact Header -->
         <header class="section-contact-header">
+
+            <!-- Mobile Navigation Menu -->
+            <nav id="navmenumobile" class="navigation-mobile">
+                <ul class="menu-mobile">
+                    <li onclick="toggleNavigationMenu()"><a href="../index.html"
+                            class="typ-body-text menu-item">Home</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="videographypage.html"
+                            class="typ-body-text menu-item">Videography</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="contactpage.html"
+                            class="typ-body-text menu-item">Contact</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="../icons/close_icon_white.svg" />
+            </nav>
+
+            <!-- Navigation Menu -->
+            <nav id="navmenu" class="navigation container">
+                <ul class="menu">
+                    <li><a href="../index.html" class="typ-body-text menu-item">Home</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="videographypage.html" class="typ-body-text menu-item">Videography</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="../icons/menu-bar-icon.svg" />
+            </nav>
+
+            <!-- Header Title -->
             <div class="container vertical-flex-container container-contact-header">
                 <p class="typ-title-header">Hello</p>
                 <p class="typ-display-subheader">Come say hi and check out what I'm up to!</p>
@@ -77,7 +105,8 @@
                 <p class="typ-section-header other-contacts">Other</p>
                 <div class="contact-cards-container">
                     <!-- Stackoverflow Profile -->
-                    <div onclick="openExternalUrl('https://stackoverflow.com/users/9879359/calvin-rai')" class="contact-card">
+                    <div onclick="openExternalUrl('https://stackoverflow.com/users/9879359/calvin-rai')"
+                        class="contact-card">
                         <img class="contact-card-logo" src="../img/socialicons/stackoverflow-glyph-color.svg" />
                         <div class="contact-card-text-container">
                             <p class="typ-body-text">Stackoverflow</p>
