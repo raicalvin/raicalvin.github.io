@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/font-styles.css">
     <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/navigation/navigation-styles.css">
     <link rel="stylesheet" href="../css/videographypage/videographypage-styles.css">
     <!-- This stylesheet should be the last one to override above styles in media queries -->
     <link rel="stylesheet" href="../css/styles-resp.css">
@@ -25,12 +26,35 @@
 <body>
     <main>
 
-        <!-- Contact Header -->
+        <!-- Videography Page Header -->
         <header class="section-videography-header">
+
+            <!-- Mobile Navigation Menu -->
+            <nav id="navmenumobile" class="navigation-mobile">
+                <ul class="menu-mobile">
+                    <li onclick="toggleNavigationMenu()"><a href="pages/videographypage.html" class="typ-body-text menu-item">Videography</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="../icons/close_icon_white.svg" />
+            </nav>
+
+            <!-- Navigation Menu -->
+            <nav id="navmenu" class="navigation container">
+                <ul class="menu">
+                    <li><a href="../index.html" class="typ-body-text menu-item">Home</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="videographypage.html" class="typ-body-text menu-item">Videography</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="../icons/menu-bar-icon.svg" />
+            </nav>
+
+            <!-- Header Title -->
             <div class="container vertical-flex-container container-videography-header">
                 <p class="typ-title-header">Lights, Camera, Action!</p>
                 <p class="typ-display-subheader">Check out some of the video projects I've been working on!</p>
             </div>
+
         </header>
 
         <!-- Latest iPhone Cinematic Video Section -->
@@ -38,16 +62,32 @@
             <div class="container vertical-flex-container">
                 <p class="typ-section-header latest-cinematic-title">My Latest iPhone Cinematic</p>
                 <div class="latest-cinematic-video-container">
-                    <iframe class="latest-cinematic-video" src="https://www.youtube.com/embed/1QlxxEVXSY4?si=QTnRaFKm-2GOWbJa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe class="latest-cinematic-video"
+                        src="https://www.youtube.com/embed/1QlxxEVXSY4?si=QTnRaFKm-2GOWbJa" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
             </div>
             <div class="container vertical-flex-container">
                 <p class="typ-section-header other-videos-title">Other Videos</p>
                 <div class="other-videos-container">
-                    <iframe class="other-video" src="https://www.youtube.com/embed/ZvWOiKwq_5Q?si=nZDM4e1lalXbx6HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe class="other-video" src="https://www.youtube.com/embed/vH3wCDxaXJY?si=G-qSbZupatTLm33r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe class="other-video" src="https://www.youtube.com/embed/Rsaf5eYu3po?si=Zn0OVCUB3xsLNZd-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe class="other-video" src="https://www.youtube.com/embed/9JLN_RfZRL4?si=Cbybc70SQybKCoGn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe class="other-video" src="https://www.youtube.com/embed/ZvWOiKwq_5Q?si=nZDM4e1lalXbx6HQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <iframe class="other-video" src="https://www.youtube.com/embed/vH3wCDxaXJY?si=G-qSbZupatTLm33r"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <iframe class="other-video" src="https://www.youtube.com/embed/Rsaf5eYu3po?si=Zn0OVCUB3xsLNZd-"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <iframe class="other-video" src="https://www.youtube.com/embed/9JLN_RfZRL4?si=Cbybc70SQybKCoGn"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -85,7 +125,8 @@
         <!-- Fun Quote Section -->
         <section class="section-fun-quote">
             <div class="container container-fun-quote">
-                <p class="typ-section-fun-quote fun-quote-text">...and I love being able to tell a <span class="fun-quote-colored-word">story</span> with them!</p>
+                <p class="typ-section-fun-quote fun-quote-text">...and I love being able to tell a <span
+                        class="fun-quote-colored-word">story</span> with them!</p>
             </div>
         </section>
 
@@ -102,8 +143,10 @@
             <!-- Instagram Button -->
             <div class="container vertical-flex-container container-calvin-ry-contact">
                 <p class="typ-body-text calvin-ry-subtitle">Check out my Channel and latest updates here!</p>
-                <button href="https://www.youtube.com/@CalvinRy" class="primary-button-dark typ-button-text youtube-button">YouTube</button>
-                <button href="https://www.instagram.com/hellocalvinry/" class="primary-button-dark typ-button-text">Instagram</button>
+                <button href="https://www.youtube.com/@CalvinRy"
+                    class="primary-button-dark typ-button-text youtube-button">YouTube</button>
+                <button href="https://www.instagram.com/hellocalvinry/"
+                    class="primary-button-dark typ-button-text">Instagram</button>
             </div>
         </section>
 

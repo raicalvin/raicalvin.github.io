@@ -9,18 +9,6 @@
 
 @media screen and (min-width: 360px) {
 
-    .menu {
-        display: none;
-    }
-
-    .menu-mobile {
-        display: flex;
-    }
-
-    .menu-hamburger {
-        display: flex;
-    }
-
     .container-header > button {
         margin-top: 34px;
     }
@@ -91,18 +79,6 @@
 /* These are the media queries for ??? */
 
 @media screen and (min-width: 768px) {
-
-    .menu {
-        display: flex;
-    }
-
-    .menu-mobile {
-        display: none;
-    }
-    
-    .menu-hamburger {
-        display: none;
-    }
 
     .augmented-reality-project-screenshot {
         width: 160px;
