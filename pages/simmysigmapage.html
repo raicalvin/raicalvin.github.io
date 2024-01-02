@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Calvin Rai" />
+    <meta name="description" content="A page showcasing the Simmy Sigma project" />
+    <meta name="theme-color" content="#000000">
+    <!-- Title of Website -->
+    <title>Calvin Rai</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/font-styles.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/navigation/navigation-styles.css">
+    <link rel="stylesheet" href="../css/simmysigmapage/simmysigmapage-styles.css">
+    <!-- Responsive stylesheets should be here to override the above -->
+    <link rel="stylesheet" href="../css/styles-resp.css">
+    <link rel="stylesheet" href="../css/simmysigmapage/simmysigmapage-styles-resp.css">
+    <link rel="stylesheet" href="../css/typography-resp.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- Simmy Sigma Page Header -->
+        <header class="section-simmysigma-header">
+
+            <!-- Mobile Navigation Menu -->
+            <nav id="navmenumobile" class="navigation-mobile">
+                <ul class="menu-mobile">
+                    <li onclick="toggleNavigationMenu()"><a href="../index.html"
+                        class="typ-body-text menu-item">Home</a></li>
+                <li onclick="toggleNavigationMenu()"><a href="videographypage.html"
+                        class="typ-body-text menu-item">Videography</a></li>
+                <li onclick="toggleNavigationMenu()"><a href="contactpage.html"
+                        class="typ-body-text menu-item">Contact</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="../icons/close_icon_white.svg" />
+            </nav>
+
+            <!-- Navigation Menu -->
+            <nav id="navmenu" class="navigation container">
+                <ul class="menu">
+                    <li><a href="../index.html" class="typ-body-text menu-item">Home</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="videographypage.html" class="typ-body-text menu-item">Videography</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="../icons/menu-bar-icon.svg" />
+            </nav>
+
+            <!-- Header Title -->
+            <div class="container vertical-flex-container container-simmysigma-header">
+                <p class="typ-title-header">Simmy Sigma</p>
+                <p class="typ-display-subheader">Check out my engineering lectures on YouTube!</p>
+            </div>
+
+        </header>
+
+        <!-- Intro to Simmy Sigma Section -->
+        <section class="section-simmy-sigma-intro section-vertical-padding">
+            <div class="container vertical-flex-container">
+                <p class="typ-section-header simmysigma-intro-title">Intro to Simmy Sigma 101</p>
+                <div class="intro-video-container">
+                    <iframe class="channel-trailer-video"
+                        src="https://www.youtube.com/embed/f0v2uA0o4LA?si=cxxpP8ApMoyMbEV7" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- TODO: Unique section here talking about what Simmy Sigma is and why I started it -->
+        <!-- TODO: Section of playlists -->
+        <!-- TODO: Playlists of videos -->
+        <!-- TODO: Engineering is an Art Fun Quote -->
+        <!-- TODO: YouTube section (like videography page) -->
+
+        <!-- Footer -->
+        <section class="section-footer">
+            <p class="footer-note typ-caption">Made with 💙. And some JavaScript. By Calvin.</p>
+        </section>
+
+    </main>
+    <!-- JavaScript Reference -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

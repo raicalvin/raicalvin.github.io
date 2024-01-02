@@ -1,0 +1,48 @@
+/* 
+    Styles defined in this file apply only to the simmy sigma page of this website.
+*/
+
+/* === === === === === === === === === === === === === === === */
+/* SECTIONS */
+/* This are full-width sections of your websites that will house your containers */
+
+.section-simmysigma-header {
+    background-color: black;
+    height: 532px;
+}
+
+.section-footer {
+    background-color: black;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* SIMMY SIGMA HERO STYLES */
+/* These are styles specific to the hero part in the simmy sigma page */
+
+.container-simmysigma-header {
+    color: white;
+    padding-top: 143px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* SIMMY SIGMA INTRO STYLES */
+/* These are styles specific to the introduction of simmy sigma */
+
+/* === === === === === === === === === === === === === === === */
+/* LATEST CINEMATIC STYLES */
+/* These are styles specific to the latest cinematic part */
+
+.simmysigma-intro-title {
+    background: -webkit-linear-gradient(30deg, #A945D8, #35084A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+}
+
+.intro-video-container {
+    display: flex;
+    justify-content: center;
+}
