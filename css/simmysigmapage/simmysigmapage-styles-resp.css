@@ -24,6 +24,18 @@
         width: 100%;
     }
 
+    .simmy-sigma-picture {
+        width: 120px;
+        height: 120px;
+        padding: 5px;
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+
+    .simmy-sigma-subtitle {
+        margin-bottom: 24px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -34,6 +46,16 @@
 
     .playlist-video {
         width: 340px;
+    }
+
+    .simmy-sigma-picture {
+        width: 160px;
+        height: 160px;
+        padding: 5px;
+    }
+
+    .simmy-sigma-subtitle {
+        margin-bottom: 30px;
     }
 
 }
@@ -48,6 +70,16 @@
         width: 460px;
     }
 
+    .simmy-sigma-picture {
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+    }
+
+    .simmy-sigma-subtitle {
+        margin-bottom: 36px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -58,6 +90,18 @@
 
     .playlist-video {
         width: 540px;
+    }
+
+    .simmy-sigma-picture {
+        width: 240px;
+        height: 240px;
+        padding: 5px;
+        margin-top: 56px;
+        margin-bottom: 56px;
+    }
+
+    .simmy-sigma-subtitle {
+        margin-bottom: 42px;
     }
 
 }

@@ -37,7 +37,7 @@
 /* These are styles specific to the introduction of simmy sigma */
 
 .simmysigma-intro-title {
-    background: -webkit-linear-gradient(30deg, #A945D8, #35084A);
+    background: -webkit-linear-gradient(30deg, #4685a4, #2e2626);
     background-clip: text;
     -webkit-background-clip: text;
     display: block;
@@ -81,4 +81,50 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 4px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* YOUTUBE STYLES */
+/* These are styles specific to the contact and YouTube section */
+
+.youtube-title {
+    background: -webkit-linear-gradient(30deg, #4685a4, #2e2626);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+}
+
+.simmy-sigma-picture-container {
+    display: flex;
+    justify-content: center;
+}
+
+.simmy-sigma-picture {
+    width: 240px; 
+    height: 240px;
+    border-radius: 100%;
+    background-color: black;
+    padding: 5px;
+}
+
+.container-simmy-sigma-contact {
+    align-items: center;
+}
+
+.youtube-button {
+    margin-bottom: 12px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* FOOTER STYLES */
+/* These are styles specific to the footer on the simmy sigma page */
+
+.footer-note {
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    text-align: center;
 }
