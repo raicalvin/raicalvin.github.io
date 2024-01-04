@@ -11,6 +11,14 @@
     height: 532px;
 }
 
+.section-why-simmy-sigma {
+    background-color: #E7E7E7;
+}
+
+.section-simmy-sigma-playlists {
+    background-color: white;
+}
+
 .section-footer {
     background-color: black;
 }
@@ -28,10 +36,6 @@
 /* SIMMY SIGMA INTRO STYLES */
 /* These are styles specific to the introduction of simmy sigma */
 
-/* === === === === === === === === === === === === === === === */
-/* LATEST CINEMATIC STYLES */
-/* These are styles specific to the latest cinematic part */
-
 .simmysigma-intro-title {
     background: -webkit-linear-gradient(30deg, #A945D8, #35084A);
     background-clip: text;
@@ -45,4 +49,36 @@
 .intro-video-container {
     display: flex;
     justify-content: center;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* WHY SIMMY SIGMA STYLES */
+/* These are styles specific to the about part of simmy sigma */
+
+.simmy-sigma-about-copy {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* SIMMY SIGMA PLAYLISTS STYLES */
+/* These are styles specific to the about part of simmy sigma */
+
+.playlists-content-title {
+    background: -webkit-linear-gradient(30deg, #4685a4, #2e2626);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+}
+
+.playlists-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
 }
