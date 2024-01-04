@@ -1,0 +1,107 @@
+/* 
+    Styles defined in this file are specific to the responsive elements
+    of the simmy sigma page of the website.
+*/
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPHONE (363px) */
+/* These are the media queries for a 363px iPhone width */
+
+@media screen and (min-width: 360px) {
+
+    .section-vertical-padding {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+    .channel-trailer-video {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    }
+
+    .playlist-video {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    }
+
+    .simmy-sigma-picture {
+        width: 120px;
+        height: 120px;
+        padding: 5px;
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+
+    .simmy-sigma-subtitle {
+        margin-bottom: 24px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR ??? */
+/* These are the media queries for ??? */
+
+@media screen and (min-width: 768px) {
+
+    .playlist-video {
+        width: 340px;
+    }
+
+    .simmy-sigma-picture {
+        width: 160px;
+        height: 160px;
+        padding: 5px;
+    }
+
+    .simmy-sigma-subtitle {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPAD PRO */
+/* These are the media queries for a 1024px iPad width */
+
+@media screen and (min-width: 1024px) {
+
+    .playlist-video {
+        width: 460px;
+    }
+
+    .simmy-sigma-picture {
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+    }
+
+    .simmy-sigma-subtitle {
+        margin-bottom: 36px;
+    }
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR DESKTOP */
+/* These are the media queries for a 1200px Desktop width */
+
+@media screen and (min-width: 1200px) {
+
+    .playlist-video {
+        width: 540px;
+    }
+
+    .simmy-sigma-picture {
+        width: 240px;
+        height: 240px;
+        padding: 5px;
+        margin-top: 56px;
+        margin-bottom: 56px;
+    }
+
+    .simmy-sigma-subtitle {
+        margin-bottom: 42px;
+    }
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Calvin Rai" />
+    <meta name="description" content="A page showcasing the Simmy Sigma project" />
+    <meta name="theme-color" content="#000000">
+    <!-- Title of Website -->
+    <title>Calvin Rai</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/font-styles.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/navigation/navigation-styles.css">
+    <link rel="stylesheet" href="../css/simmysigmapage/simmysigmapage-styles.css">
+    <!-- Responsive stylesheets should be here to override the above -->
+    <link rel="stylesheet" href="../css/styles-resp.css">
+    <link rel="stylesheet" href="../css/simmysigmapage/simmysigmapage-styles-resp.css">
+    <link rel="stylesheet" href="../css/typography-resp.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- Simmy Sigma Page Header -->
+        <header class="section-simmysigma-header">
+
+            <!-- Mobile Navigation Menu -->
+            <nav id="navmenumobile" class="navigation-mobile">
+                <ul class="menu-mobile">
+                    <li onclick="toggleNavigationMenu()"><a href="../index.html"
+                        class="typ-body-text menu-item">Home</a></li>
+                <li onclick="toggleNavigationMenu()"><a href="videographypage.html"
+                        class="typ-body-text menu-item">Videography</a></li>
+                <li onclick="toggleNavigationMenu()"><a href="contactpage.html"
+                        class="typ-body-text menu-item">Contact</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="../icons/close_icon_white.svg" />
+            </nav>
+
+            <!-- Navigation Menu -->
+            <nav id="navmenu" class="navigation container">
+                <ul class="menu">
+                    <li><a href="../index.html" class="typ-body-text menu-item">Home</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="videographypage.html" class="typ-body-text menu-item">Videography</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="../icons/menu-bar-icon.svg" />
+            </nav>
+
+            <!-- Header Title -->
+            <div class="container vertical-flex-container container-simmysigma-header">
+                <p class="typ-title-header">Simmy Sigma</p>
+                <p class="typ-display-subheader">Check out my engineering lectures on YouTube!</p>
+            </div>
+
+        </header>
+
+        <!-- Intro to Simmy Sigma Section -->
+        <section class="section-simmy-sigma-intro section-vertical-padding">
+            <div class="container vertical-flex-container">
+                <p class="typ-section-header simmysigma-intro-title">Intro to Simmy Sigma 101</p>
+                <div class="intro-video-container">
+                    <iframe class="channel-trailer-video"
+                        src="https://www.youtube.com/embed/f0v2uA0o4LA?si=cxxpP8ApMoyMbEV7" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Simmy Sigma Section -->
+        <section class="section-why-simmy-sigma section-vertical-padding">
+            <div class="container vertical-flex-container">
+                <p class="typ-body-text simmy-sigma-about-copy">What started off as a tiny project in my dorm room at Cal Poly turned into a passion project focussed on making complex engineering topics easy enough to understand through bite-sized videos. I am beyond grateful for the outlet that I have through Simmy Sigma to be able to share my love for engineering, physics, and science with the world.</p>
+            </div>
+        </section>
+
+        <!-- Section of Playlists -->
+        <section class="section-simmy-sigma-playlists section-vertical-padding">
+            <div class="container vertical-flex-container">
+                <p class="typ-section-header playlists-content-title">Content</p>
+                <div class="playlists-content-container">
+                    <iframe class="playlist-video" src="https://www.youtube.com/embed/videoseries?si=ikEAOtAxC5vQZJf0&amp;list=PLSlqN4CMG7zy26XSvur7dcBSgFJa40XtU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <iframe class="playlist-video" src="https://www.youtube.com/embed/videoseries?si=7OvaFtV-LkUCyD9B&amp;list=PLSlqN4CMG7zzeKTHVH51n3p2RoZ9jxrSF"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <iframe class="playlist-video" src="https://www.youtube.com/embed/videoseries?si=WCO8tNkr4LKX25Mo&amp;list=PLSlqN4CMG7zws3w36FnSVGn912WU4mjiJ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <iframe class="playlist-video" src="https://www.youtube.com/embed/videoseries?si=fTfE_H6jHwYS6m1I&amp;list=PLSlqN4CMG7zyRQ1mAGDUw1CctF17zi_bv"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <iframe class="playlist-video" src="https://www.youtube.com/embed/videoseries?si=QW8X4Y0Hlxr9VlZb&amp;list=PLSlqN4CMG7zx4iXVCsvHxLSaAWIl9FTRq"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>    
+                    <iframe class="playlist-video" src="https://www.youtube.com/embed/videoseries?si=RmT5bMupEw-oq9bc&amp;list=PL7FF084F8C414D602"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fun Quote Section -->
+        <section class="section-fun-quote">
+            <div class="container container-fun-quote">
+                <p class="typ-section-fun-quote fun-quote-text">Engineering is an <span class="fun-quote-colored-word">art!</span></p>
+            </div>
+        </section>
+
+        <!-- Simmy Sigma YouTube Instagram -->
+        <section class="section-vertical-padding">
+            <!-- Title -->
+            <div class="container vertical-flex-container">
+                <p class="typ-section-header youtube-title">YouTube & Instagram</p>
+            </div>
+            <!-- Picture -->
+            <div class="simmy-sigma-picture-container">
+                <img class="simmy-sigma-picture" src="../img/simmy-sigma-profile.jpeg">
+            </div>
+            <!-- Contact Buttons -->
+            <div class="container vertical-flex-container container-simmy-sigma-contact">
+                <p class="typ-body-text simmy-sigma-subtitle">Check out my Channel and latest updates here!</p>
+                <button href="https://www.youtube.com/@SimmySigma" class="primary-button-dark typ-button-text youtube-button">YouTube</button>
+                <button href="https://www.instagram.com/hellocalvinry/" class="primary-button-dark typ-button-text">Instagram</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="section-footer">
+            <p class="footer-note typ-caption">Made with 💙. And some JavaScript. By Calvin.</p>
+        </section>
+
+    </main>
+    <!-- JavaScript Reference -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
