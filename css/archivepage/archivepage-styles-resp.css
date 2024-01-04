@@ -1,0 +1,36 @@
+/* 
+    Styles defined in this file are specific to the responsive elements
+    of the archive and design page of the website.
+*/
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPHONE (363px) */
+/* These are the media queries for a 363px iPhone width */
+
+@media screen and (min-width: 360px) {
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR ??? */
+/* These are the media queries for ??? */
+
+@media screen and (min-width: 768px) {
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR iPAD PRO */
+/* These are the media queries for a 1024px iPad width */
+
+@media screen and (min-width: 1024px) {
+
+}
+
+/* === === === === === === === === === === === === === === === */
+/* MEDIA QUERIES FOR DESKTOP */
+/* These are the media queries for a 1200px Desktop width */
+
+@media screen and (min-width: 1200px) {
+
+}
