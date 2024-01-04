@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Calvin Rai" />
+    <meta name="description" content="An archive all all my other projects and design work" />
+    <meta name="theme-color" content="#000000">
+    <!-- Title of Website -->
+    <title>Calvin Rai</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/font-styles.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/navigation/navigation-styles.css">
+    <link rel="stylesheet" href="../css/archivepage/archivepage-styles.css">
+    <!-- This stylesheet should be the last one to override above styles in media queries -->
+    <link rel="stylesheet" href="../css/styles-resp.css">
+    <link rel="stylesheet" href="../css/archivepage/archivepage-styles-resp.css">
+    <link rel="stylesheet" href="../css/typography-resp.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- Contact Header -->
+        <header class="section-archive-header">
+
+            <!-- Mobile Navigation Menu -->
+            <nav id="navmenumobile" class="navigation-mobile">
+                <ul class="menu-mobile">
+                    <li onclick="toggleNavigationMenu()"><a href="../index.html"
+                            class="typ-body-text menu-item">Home</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="videographypage.html"
+                            class="typ-body-text menu-item">Videography</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="contactpage.html"
+                            class="typ-body-text menu-item">Contact</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="../icons/close_icon_white.svg" />
+            </nav>
+
+            <!-- Navigation Menu -->
+            <nav id="navmenu" class="navigation container">
+                <ul class="menu">
+                    <li><a href="../index.html" class="typ-body-text menu-item">Home</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="videographypage.html" class="typ-body-text menu-item">Videography</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="../icons/menu-bar-icon.svg" />
+            </nav>
+
+            <!-- Header Title -->
+            <div class="container vertical-flex-container container-archive-header">
+                <p class="typ-title-header">Archive</p>
+                <p class="typ-display-subheader">Check out some of my web and design projects!</p>
+            </div>
+        </header>
+
+        <!-- Footer -->
+        <section class="section-footer">
+            <p class="footer-note typ-caption">Made with 💙. And some JavaScript. By Calvin.</p>
+        </section>
+
+    </main>
+    <!-- JavaScript Reference -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
