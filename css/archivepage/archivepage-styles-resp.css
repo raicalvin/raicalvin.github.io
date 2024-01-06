@@ -9,6 +9,60 @@
 
 @media screen and (min-width: 360px) {
 
+    .section-vertical-padding {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+    .grid {
+        width: 360px;
+        margin: auto;
+    }
+
+    .grid-front-end {
+        width: 100%;
+    }
+
+    .web-app-row-item {
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid #D9D9D9;
+        margin-bottom: 8px;
+    }
+
+    .web-app-item-image {
+        width: 50%;
+        aspect-ratio: 4 / 3;
+        background-color: green;
+    }
+
+    .web-app-item-description {
+        width: 50%;
+        aspect-ratio: 4 / 3;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        margin: 24px;
+    }
+
+    .web-app-subtitle {
+        margin-bottom: 12px;
+    }
+
+    .web-app-description {
+        margin-bottom: 12px;
+    }
+
+    .web-app-tech-logo {
+        width: 24px;
+        height: 24px;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -16,6 +70,10 @@
 /* These are the media queries for ??? */
 
 @media screen and (min-width: 768px) {
+
+    .grid {
+        width: 768px;
+    }
 
 }
 
@@ -25,6 +83,9 @@
 
 @media screen and (min-width: 1024px) {
 
+    .grid {
+        width: 1024px;
+    }
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -33,4 +94,7 @@
 
 @media screen and (min-width: 1200px) {
 
+    .grid {
+        width: 1200px;
+    }
 }
