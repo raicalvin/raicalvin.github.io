@@ -31,17 +31,15 @@
     }
 
     .web-app-item-image {
-        width: 50%;
+        width: 100%;
         aspect-ratio: 4 / 3;
         background-color: green;
     }
 
     .web-app-item-description {
-        width: 50%;
-        aspect-ratio: 4 / 3;
+        width: 100%;
         display: flex;
         align-items: center;
-        
     }
 
     .text-container {
@@ -63,6 +61,22 @@
         height: 24px;
     }
 
+    .web-app-row-a > img {
+        order: 1;
+    }
+
+    .web-app-row-a > div {
+        order: 2;
+    }
+
+    .web-app-row-b > img {
+        order: 1;
+    }
+
+    .web-app-row-b > div {
+        order: 2;
+    }
+
     .design-samples-bento-item-box {
         aspect-ratio: 4 / 3;
         width: 100%;
@@ -82,10 +96,6 @@
         width: 768px;
     }
 
-    .design-samples-bento-item-box {
-        width: 49%;
-    }
-
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -97,6 +107,24 @@
     .grid {
         width: 1024px;
     }
+
+    .web-app-item-image {
+        width: 50%;
+    }
+
+    .web-app-item-description {
+        width: 50%;
+        aspect-ratio: 4 / 3;
+    }
+
+    .web-app-row-b > img {
+        order: 2;
+    }
+
+    .web-app-row-b > div {
+        order: 1;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
