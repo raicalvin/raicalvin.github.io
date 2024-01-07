@@ -63,6 +63,13 @@
         height: 24px;
     }
 
+    .design-samples-bento-item-box {
+        aspect-ratio: 4 / 3;
+        width: 100%;
+        background-color: #181818;
+        background-clip: padding-box;
+    }
+
 }
 
 /* === === === === === === === === === === === === === === === */
@@ -73,6 +80,10 @@
 
     .grid {
         width: 768px;
+    }
+
+    .design-samples-bento-item-box {
+        width: 49%;
     }
 
 }

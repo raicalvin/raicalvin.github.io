@@ -25,7 +25,7 @@
 }
 
 /* === === === === === === === === === === === === === === === */
-/* Web Application STYLES */
+/* WEB APPLICATION STYLES */
 /* These are styles specific to the web app projects part */
 
 .web-app-title {
@@ -36,6 +36,35 @@
     width: fit-content;
     -webkit-text-fill-color: transparent;
     margin-bottom: 32px;
+}
+
+/* === === === === === === === === === === === === === === === */
+/* DESIGN SAMPLES STYLES */
+/* These are styles specific to the design samples part */
+
+.design-samples-title {
+    background: -webkit-linear-gradient(30deg, #FF4270, #A300E8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+}
+
+.container-design-samples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.design-samples-bento-image {
+    aspect-ratio: 4 / 3;
+    width: 49%;
+    background-size: cover;
 }
 
 /* === === === === === === === === === === === === === === === */
