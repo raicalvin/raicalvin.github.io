@@ -11,6 +11,10 @@
     height: 532px;
 }
 
+.section-design-samples {
+    margin-bottom: 76px;
+}
+
 .section-footer {
     background-color: black;
 }
@@ -63,7 +67,6 @@
 
 .design-samples-bento-image {
     aspect-ratio: 4 / 3;
-    width: 49%;
     background-size: cover;
 }
 
