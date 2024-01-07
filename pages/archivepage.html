@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Calvin Rai" />
+    <meta name="description" content="An archive all all my other projects and design work" />
+    <meta name="theme-color" content="#000000">
+    <!-- Title of Website -->
+    <title>Calvin Rai</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/font-styles.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/navigation/navigation-styles.css">
+    <link rel="stylesheet" href="../css/archivepage/archivepage-styles.css">
+    <!-- This stylesheet should be the last one to override above styles in media queries -->
+    <link rel="stylesheet" href="../css/styles-resp.css">
+    <link rel="stylesheet" href="../css/archivepage/archivepage-styles-resp.css">
+    <link rel="stylesheet" href="../css/typography-resp.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- Contact Header -->
+        <header class="section-archive-header">
+
+            <!-- Mobile Navigation Menu -->
+            <nav id="navmenumobile" class="navigation-mobile">
+                <ul class="menu-mobile">
+                    <li onclick="toggleNavigationMenu()"><a href="../index.html" class="typ-body-text menu-item">Home</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="videographypage.html" class="typ-body-text menu-item">Videography</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="simmysigmapage.html" class="typ-body-text menu-item">Simmy Sigma</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="archivepage.html" class="typ-body-text menu-item">Archive</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="../icons/close_icon_white.svg" />
+            </nav>
+
+            <!-- Navigation Menu -->
+            <nav id="navmenu" class="navigation container">
+                <ul class="menu">
+                    <li><a href="../index.html" class="typ-body-text menu-item">Home</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="videographypage.html" class="typ-body-text menu-item">Videography</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="simmysigmapage.html" class="typ-body-text menu-item">Simmy Sigma</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="archivepage.html" class="typ-body-text menu-item">Archive</a></li>
+                </ul>
+                <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="../icons/menu-bar-icon.svg" />
+            </nav>
+
+            <!-- Header Title -->
+            <div class="container vertical-flex-container container-archive-header">
+                <p class="typ-title-header">Archive</p>
+                <p class="typ-display-subheader">Check out some of my web and design projects!</p>
+            </div>
+        </header>
+
+        <!-- Web Projects Section -->
+        <section class="section-web-app-projects section-vertical-padding">
+            <div class="container vertical-flex-container">
+                <p class="typ-section-header web-app-title">Web Application Projects</p>
+                <div class="grid grid-front-end">
+
+                    <div class="web-app-row-item web-app-row-a">
+                        <img class="web-app-item-image" src="../img/webappimages/web_flashcards_react_native_app.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">React Native Flashcards</p>
+                                <p class="typ-body-text web-app-description">This application was the final project for the React Nanodegree from Udacity. This application used React Native, React Navigation, Redux, and local storage to develop a native iOS app that a user could use to add decks, take a quiz, and add cards to specific decks.</p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_react.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_redux.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_javascript.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="web-app-row-item web-app-row-b">
+                        <img class="web-app-item-image" src="../img/webappimages/web_neighborhood_react_map_app_browser.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">React Kyoto Explore</p>
+                                <p class="typ-body-text web-app-description">This single-page application utilizes the Google Maps API, Foursquare API, React to display information about particular locations in Kyoto, Japan. Asynchronous requests are handled using Promises, the site conforms responsively to different screen sizes, and utilizes a service worker to ensure some functionality while the user is offline. ARIA standards are used to keep the site accessibility-friendly.</p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_react.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_foursqaure_api.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_google_maps_api.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_javascript.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="web-app-row-item web-app-row-a">
+                        <img class="web-app-item-image" src="../img/webappimages/web_memory_game_browser.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">Memory Game</p>
+                                <p class="typ-body-text web-app-description">This is a clone of a classic memory game where the user tries to select all matching card pairs. The project incorporates JavaScript programming concepts including DOM selectors, event listeners, and methods to implement the games functionality. The program also tracks the user's score, matched pairs, and </p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_javascript.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="web-app-row-item web-app-row-b">
+                        <img class="web-app-item-image" src="../img/webappimages/web_jasmine_feed_reader_browser.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">Feed Reader</p>
+                                <p class="typ-body-text web-app-description">This project utilizes the testing framework Jasmine to provide various unit tests for a RSS feed reader application. The project includes separate tests for various application features including showing and hiding the menu, ensuring updated content information for various categories, checking to see if each entry has a valid URL, and more.</p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_jasmine.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_javascript.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="web-app-row-item web-app-row-a">
+                        <img class="web-app-item-image" src="../img/webappimages/web_milky_way_galaxy_browser.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">Milky Way Galaxy Site</p>
+                                <p class="typ-body-text web-app-description">This was my very first website in my Intro to Programming Nanodegree. We were allowed to choose a topic that interested us and develop a website about it. Naturally, my history of interest in cosmology led me to develop a website showcasing some of the most amazing things in our own Milky Way Galaxy.</p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="web-app-row-item web-app-row-b">
+                        <img class="web-app-item-image" src="../img/webappimages/web_my_reads_react_app_browser.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">MyReads React App</p>
+                                <p class="typ-body-text web-app-description">This application utilizes React components, state management, React routing, and an external booksAPI file to create a book tracking application. The user is able to search for a variety of books from a server, add them to their book shelves, and manage their books using the provided options menu. The search page features real-time search filtering as the user is typing.</p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_react.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_react_router_light.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_javascript.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="web-app-row-item web-app-row-a">
+                        <img class="web-app-item-image" src="../img/webappimages/web_pixel_art_maker_browser.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">Pixel Art Maker</p>
+                                <p class="typ-body-text web-app-description">In this project, the concepts of DOM selectors and event listeners in JavaScript are used to allow a user to pick colors from a color pallete and color in the squares of a grid to create a pixel masterpiece!</p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_javascript.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="web-app-row-item web-app-row-b">
+                        <img class="web-app-item-image" src="../img/webappimages/web_psr_website_browser.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">An Author's Book Site</p>
+                                <p class="typ-body-text web-app-description">This was one of my first websites I created when learning web development. The site was created to help advertise the books my dad writes and publishes. The webpage was built to be responsive and include links to the various books my dad has written. Due to inactivity and low traffic volume, the website was taken down on in July 2017. A new website is in currently in conceptual design which improves the site layout and color sheme.</p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_javascript.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="web-app-row-item web-app-row-a">
+                        <img class="web-app-item-image" src="../img/webappimages/web_restaurant_reviews_app_browser.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">Restaurant Review App</p>
+                                <p class="typ-body-text web-app-description">This project was a fictional food review site where the website was designed to be responsive, utilize a service worker to store content in local cahce, and include accessibility features following ARIA guidlines.</p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_google_maps_api.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_javascript.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="web-app-row-item web-app-row-b">
+                        <img class="web-app-item-image" src="../img/webappimages/web_would_you_rather_redux_app.png"/>
+                        <div class="web-app-item-description">
+                            <div class="text-container">
+                                <p class="typ-display-subheader web-app-subtitle">Would You Rather</p>
+                                <p class="typ-body-text web-app-description">This application utilizes the Redux library to create an application that allows multiple users to log into a game of 'Would You Rather?' where users are able to answer questions, view polls, and submit new questions. The primary concepts used from Redux include single-source state management, actions and reducers for state manipulation, asynchronous Redux, and implementing React using react-redux bindings.</p>
+                                <div class="web-app-tech-logo-row">
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_react.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_redux.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_react_router_light.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_javascript.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_bootstrap.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_html5.png"/>
+                                    <img class="web-app-tech-logo" src="../img/webtechlogos/logo_web_css3.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Samples Project -->
+        <section class="section-design-samples">
+            <div class="container vertical-flex-container">
+                <p class="typ-section-header design-samples-title">Design Samples</p>
+                <div class="container container-design-samples">
+                    <img class="design-samples-bento-image" src="../img/designsamples/design_sample_gomez_music_player.png"/>
+                    <img class="design-samples-bento-image" src="../img/designsamples/design_sample_linear_interpolator.png"/>
+                    <img class="design-samples-bento-image" src="../img/designsamples/design_sample_original_portfolio.png"/>
+                    <img class="design-samples-bento-image" src="../img/designsamples/design_sample_tour_guide_app.png"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="section-footer">
+            <p class="footer-note typ-caption">Made with 💙. And some JavaScript. By Calvin.</p>
+        </section>
+
+    </main>
+    <!-- JavaScript Reference -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
