@@ -1,7 +1,11 @@
-/* 
-    Styles in this file are specific to the responsiveness of the 
-    typography and font styles used across the website.
+/*
+    These are typography styles that are meant for larger screen widths such as
+    iPad and Desktop. These styles are used on all pages across the website.
 */
+
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPAD - 768px */
+/* ========================================================================== */
 
 @media screen and (min-width: 768px) {
 
@@ -17,68 +21,64 @@
         font-size: 16px;
     }
 
-    .typ-section-header {
-        font-size: 24px;
-    }
-
-    .typ-section-fun-quote {
-        font-size: 16px;
-    }
-
     .typ-body-text {
         font-size: 16px;
     }
 
+    .typ-section-header {
+        font-size: 28px;
+    }
+
+    .typ-section-fun-quote {
+        font-size: 18px;
+    }
+
+    .typ-button-text {
+        font-size: 13px;
+    }
+
+    .typ-caption {
+        font-size: 11px;
+    }
+
 }
+
+/* ========================================================================== */
+/* MEDIA QUERIES FOR DESKTOP - 1024px */
+/* ========================================================================== */
 
 @media screen and (min-width: 1024px) {
 
     .typ-title-header {
-        font-size: 50px;
+        font-size: 48px;
     }
 
     .typ-title-subheader {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .typ-display-subheader {
-        font-size: 20px;
-    }
-
-    .typ-section-header {
-        font-size: 30px;
-    }
-
-    .typ-section-fun-quote {
-        font-size: 20px;
-    }
-
-}
-
-@media screen and (min-width: 1200px) {
-
-    .typ-title-header {
-        font-size: 60px;
-    }
-
-    .typ-title-subheader {
-        font-size: 36px;
-    }
-
-    .typ-display-subheader {
-        font-size: 24px;
-    }
-
-    .typ-section-header {
-        font-size: 36px;
-    }
-
-    .typ-section-fun-quote {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .typ-body-text {
         font-size: 18px;
+    }
+
+    .typ-section-header {
+        font-size: 36px;
+    }
+
+    .typ-section-fun-quote {
+        font-size: 22px;
+    }
+
+    .typ-button-text {
+        font-size: 14px;
+    }
+
+    .typ-caption {
+        font-size: 12px;
     }
 
 }

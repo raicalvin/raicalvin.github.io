@@ -1,32 +1,33 @@
-/* 
-    Styles used in this file are for all text styles per your
-    text designs in Figma and used across all pages of the site.
+/*
+    These are the basic typography styles that will be applied to all text 
+    within the website. These are mobile-first sizes for iPhone 320px. The names
+    of each of the styles refer to the Figma text styles in the styleguides.
 */
 
 .typ-title-header {
     font-family: 'urbanist-extrabold';
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .typ-title-subheader {
     font-family: 'urbanist-medium';
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .typ-display-subheader {
     font-family: 'urbanist-thin';
-    font-size: 12px;
+    font-size: 14px;
 }
 
-.typ-button-text {
-    font-family: 'urbanist-medium';
-    font-size: 12px;
-    line-height: 140%;
+.typ-body-text {
+    font-family: 'urbanist-regular';
+    font-size: 14px;
+    line-height: 180%;
 }
 
 .typ-section-header {
     font-family: 'urbanist-semibold';
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .typ-section-fun-quote {
@@ -34,13 +35,12 @@
     font-size: 14px;
 }
 
-.typ-body-text {
-    font-family: 'urbanist-regular';
-    font-size: 14px;
-    line-height: 140%;
+.typ-button-text {
+    font-family: 'urbanist-medium';
+    font-size: 12px;
 }
 
 .typ-caption {
     font-family: 'urbanist-semibold';
-    font-size: 12px;
+    font-size: 10px;
 }
