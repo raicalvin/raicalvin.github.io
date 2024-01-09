@@ -1,11 +1,11 @@
-/* 
-    Styles defined in this file apply to all pages of the website and should
-    be the first stylesheet that is imported for all pages.
+/*
+    Styles defined in this file apply to all pages of the website and should be 
+    the first stylesheet that is imported for all pages.
 */
 
-/* === === === === === === === === === === === === === === === */
-/* DEFAULT STYLES */
-/* These are default styles applied to all document elements */
+/* ========================================================================== */
+/* DEFAULT PAGE STYLES */
+/* ========================================================================== */
 
 * {
     /* Default font-family for website */
@@ -21,17 +21,17 @@ p {
     padding: 0;
 }
 
-/* === === === === === === === === === === === === === === === */
-/* SECTIONS */
-/* These are the primary sections of your website that are used everywhere. */
+/* ========================================================================== */
+/* DEFAULT SECTION STYLES */
+/* ========================================================================== */
 
 .section-fun-quote {
     background-color: #E7E7E7;
 }
 
-/* === === === === === === === === === === === === === === === */
-/* CONTAINERS */
-/* These are the main boxes within each of your sections that pertain to responsive rules. */
+/* ========================================================================== */
+/* DEFAULT CONTAINER STYLES */
+/* ========================================================================== */
 
 .container {
     display: flex;
@@ -44,9 +44,9 @@ p {
     flex-direction: column;
 }
 
-/* === === === === === === === === === === === === === === === */
-/* BUTTON STYLES */
-/* These are the default button styles applied to all buttons. */
+/* ========================================================================== */
+/* DEFAULT BUTTON STYLES */
+/* ========================================================================== */
 
 .primary-button-light {
     text-align: center;
@@ -82,9 +82,9 @@ p {
     color: white;
 }
 
-/* === === === === === === === === === === === === === === === */
-/* FUN QUOTES STYLES */
-/* These are styles specific to the one-line sections breaking up the website */
+/* ========================================================================== */
+/* DEFAULT FUN QUOTE STYLES */
+/* ========================================================================== */
 
 .container-fun-quote {
     align-items: center;
