@@ -8,6 +8,12 @@ If you need to contact me, there's a section at the very bottom of this README. 
 
 ## Version History
 
+- **v0.10**: Update readme and prep repo for design refinement
+- **v0.9**: Add archive and design page
+- **v0.8**: Add simmy sigma page
+- **v0.7**: Add navigation menu
+- **v0.6**: Create videography page for calin ry
+- **v0.5**: Add contact page for socials and outreach
 - **v0.4**: Add site responsiveness for smaller screens
 - **v0.3**: Finish templates for all remaining homepage sections
 - **v0.2**: Create initial project templates 
