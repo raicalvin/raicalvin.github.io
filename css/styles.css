@@ -56,8 +56,6 @@ p {
     color: white;
     transition-duration: 0.25s;
     cursor: pointer;
-    width: 140px;
-    height: 36px;
 }
 
 .primary-button-light:hover {
@@ -73,8 +71,6 @@ p {
     color: black;
     transition-duration: 0.25s;
     cursor: pointer;
-    width: 140px;
-    height: 36px;
 }
 
 .primary-button-dark:hover {

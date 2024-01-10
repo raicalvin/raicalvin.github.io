@@ -9,17 +9,7 @@
         padding-right: 16px;
     }
 
-    .section-fun-quote {
-        padding-top: 76px;
-        padding-bottom: 76px;
-    }
-
-    .primary-button-light {
-        width: 120px;
-        height: 32px;
-    }
-
-    .primary-button-dark {
+    .primary-button {
         width: 120px;
         height: 32px;
     }
@@ -37,6 +27,11 @@
         padding-right: 48px;
     }
 
+    .primary-button {
+        width: 130px;
+        height: 34px;
+    }
+
 }
 
 /* ========================================================================== */
@@ -50,17 +45,7 @@
         padding-right: 96px;
     }
 
-    .section-fun-quote {
-        padding-top: 196px;
-        padding-bottom: 196px;
-    }
-
-    .primary-button-light {
-        width: 140px;
-        height: 36px;
-    }
-
-    .primary-button-dark {
+    .primary-button {
         width: 140px;
         height: 36px;
     }

@@ -3,17 +3,26 @@
     of the home page of the website.
 */
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPHONE (363px) */
-/* These are the media queries for a 363px iPhone width */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPHONE - 320px */
+/* ========================================================================== */
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
 
-    .container-header > button {
-        margin-top: 34px;
+    .container-header {
+        padding-top: 168px;
     }
 
-    .about-me-description {
+    .container-header > button {
+        margin-top: 24px;
+    }
+
+    .hero-bottom-chevron {
+        height: 18px;
+        bottom: 8px;
+    }
+
+    /* .about-me-description {
         padding-top: 34px;
     }
 
@@ -70,17 +79,26 @@
     .footer-note {
         padding-top: 12px;
         padding-bottom: 12px;
-    }
+    } */
 
 }
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR ??? */
-/* These are the media queries for ??? */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPAD - 768px */
+/* ========================================================================== */
 
 @media screen and (min-width: 768px) {
 
-    .augmented-reality-project-screenshot {
+    .container-header > button {
+        margin-top: 36px;
+    }
+
+    .hero-bottom-chevron {
+        height: 20px;
+        bottom: 10px;
+    }
+
+    /* .augmented-reality-project-screenshot {
         width: 160px;
     }
 
@@ -111,17 +129,26 @@
 
     .resume-subtitle {
         margin-bottom: 30px;
-    }
+    } */
 
 }
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPAD PRO */
-/* These are the media queries for a 1024px iPad width */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR DESKTOP - 1024px */
+/* ========================================================================== */
 
 @media screen and (min-width: 1024px) {
 
-    .augmented-reality-project-screenshot {
+    .container-header > button {
+        margin-top: 48px;
+    }
+
+    .hero-bottom-chevron {
+        height: 22px;
+        bottom: 12px;
+    }
+
+    /* .augmented-reality-project-screenshot {
         width: 180px;
     }
 
@@ -152,7 +179,7 @@
 
     .resume-subtitle {
         margin-bottom: 36px;
-    }
+    } */
 
 }
 
@@ -162,19 +189,7 @@
 
 @media screen and (min-width: 1200px) {
 
-    .container-header {
-        padding-top: 162px;
-    }
-
-    .container-header > button {
-        margin-top: 58px;
-    }
-
-    .hero-bottom-chevron {
-        height: 28px;
-    }
-
-    .section-about-me {
+    /* .section-about-me {
         padding-top: 96px;
         padding-bottom: 96px;
     }
@@ -244,6 +259,6 @@
     .footer-note {
         padding-top: 18px;
         padding-bottom: 18px;
-    }
+    } */
 
 }
