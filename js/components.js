@@ -4,7 +4,7 @@
 class NavigationMenu extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <nav id="navmenu" class="navigation container">
+            <nav id="navmenu" class="navigation container container-padding">
                 <ul class="menu">
                     <li><a href="pages/videographypage.html" class="typ-body-text menu-item">Videography</a></li>
                     <li class="typ-body-text menu-item">|</li>
