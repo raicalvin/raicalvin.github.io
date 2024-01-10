@@ -4,24 +4,20 @@
 
 @media screen and (min-width: 320px) {
 
-    .container-padding {
-        padding-left: 16px;
-        padding-right: 16px;
+    .navigation {
+        padding-top: 72px;
     }
 
-    .section-fun-quote {
-        padding-top: 76px;
-        padding-bottom: 76px;
+    .menu {
+        display: none;
     }
 
-    .primary-button-light {
-        width: 120px;
-        height: 32px;
+    .menu-mobile {
+        display: flex;
     }
 
-    .primary-button-dark {
-        width: 120px;
-        height: 32px;
+    .menu-hamburger {
+        display: flex;
     }
 
 }
@@ -32,9 +28,20 @@
 
 @media screen and (min-width: 768px) {
 
-    .container-padding {
-        padding-left: 48px;
-        padding-right: 48px;
+    .navigation {
+        padding-top: 92px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+    
+    .menu-hamburger {
+        display: none;
     }
 
 }
@@ -45,24 +52,8 @@
 
 @media screen and (min-width: 1024px) {
 
-    .container-padding {
-        padding-left: 96px;
-        padding-right: 96px;
-    }
-
-    .section-fun-quote {
-        padding-top: 196px;
-        padding-bottom: 196px;
-    }
-
-    .primary-button-light {
-        width: 140px;
-        height: 36px;
-    }
-
-    .primary-button-dark {
-        width: 140px;
-        height: 36px;
+    .navigation {
+        padding-top: 112px;
     }
 
 }
