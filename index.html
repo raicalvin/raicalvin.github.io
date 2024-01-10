@@ -30,26 +30,10 @@
         <header class="section-header">
 
             <!-- Mobile Navigation Menu -->
-            <nav id="navmenumobile" class="navigation-mobile">
-                <ul class="menu-mobile">
-                    <li onclick="toggleNavigationMenu()"><a href="pages/videographypage.html" class="typ-body-text menu-item">Videography</a></li>
-                    <li onclick="toggleNavigationMenu()"><a href="pages/simmysigmapage.html" class="typ-body-text menu-item">Simmy Sigma</a></li>
-                    <li onclick="toggleNavigationMenu()"><a href="pages/archivepage.html" class="typ-body-text menu-item">Archive</a></li>
-                </ul>
-                <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="icons/close_icon_white.svg" />
-            </nav>
+            <navigation-menu-mobile></navigation-menu-mobile>
 
             <!-- Navigation Menu -->
-            <nav id="navmenu" class="navigation container">
-                <ul class="menu">
-                    <li><a href="pages/videographypage.html" class="typ-body-text menu-item">Videography</a></li>
-                    <li class="typ-body-text menu-item">|</li>
-                    <li><a href="pages/simmysigmapage.html" class="typ-body-text menu-item">Simmy Sigma</a></li>
-                    <li class="typ-body-text menu-item">|</li>
-                    <li><a href="pages/archivepage.html" class="typ-body-text menu-item">Archive</a></li>
-                </ul>
-                <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="icons/menu-bar-icon.svg" />
-            </nav>
+            <navigation-menu></navigation-menu>
 
             <div class="container vertical-flex-container container-header">
                 <p class="typ-title-subheader">Hi,</p>
@@ -210,6 +194,7 @@
     </main>
     <!-- JavaScript Reference -->
     <script src="js/script.js"></script>
+    <script src="js/components.js"></script>
 </body>
 
 </html>
