@@ -22,13 +22,12 @@
         bottom: 8px;
     }
 
-    /* .about-me-description {
-        padding-top: 34px;
+    .about-me-ending-line {
+        margin-top: 22px;
     }
 
-    .section-vertical-padding {
-        padding-top: 76px;
-        padding-bottom: 76px;
+    /* .about-me-description {
+        padding-top: 34px;
     }
 
     .container-augmented-reality-projects {
@@ -98,6 +97,10 @@
         bottom: 10px;
     }
 
+    .about-me-ending-line {
+        margin-top: 30px;
+    }
+
     /* .augmented-reality-project-screenshot {
         width: 160px;
     }
@@ -148,6 +151,10 @@
         bottom: 12px;
     }
 
+    .about-me-ending-line {
+        margin-top: 36px;
+    }
+
     /* .augmented-reality-project-screenshot {
         width: 180px;
     }
@@ -188,12 +195,7 @@
 /* These are the media queries for a 1200px Desktop width */
 
 @media screen and (min-width: 1200px) {
-
-    /* .section-about-me {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
-
+/*
     .about-me-description {
         padding-top: 42px;
     }

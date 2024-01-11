@@ -17,10 +17,7 @@
     height: 100vh;
 }
 
-/* .section-about-me {
-    background-color: black;
-}
-
+/* 
 .section-augmented-reality {
     background-color: black;
     height: auto;
@@ -60,15 +57,6 @@
 /* ABOUT ME STYLES */
 /* ========================================================================== */
 
-/* .about-me-title {
-    background: -webkit-linear-gradient(30deg, white, #2ABFFF);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-}
-
 .about-me-description {
     color: #E7E7E7;
 }
@@ -77,8 +65,7 @@
     width: 40px;
     height: 2px;
     background-color: #2ABFFF;
-    margin-top: 42px;
-} */
+}
 
 /* ========================================================================== */
 /* AUGMENTED REALITY STYLES */

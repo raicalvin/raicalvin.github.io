@@ -5,13 +5,22 @@
 @media screen and (min-width: 320px) {
 
     .container-padding {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .primary-button {
         width: 120px;
         height: 32px;
+    }
+
+    .section-title {
+        padding-top: 30px;
+        padding-bottom: 22px;
+    }
+
+    .section-padding {
+        padding-bottom: 30px;
     }
 
 }
@@ -32,6 +41,15 @@
         height: 34px;
     }
 
+    .section-title {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .section-padding {
+        padding-bottom: 30px;
+    }
+
 }
 
 /* ========================================================================== */
@@ -48,6 +66,15 @@
     .primary-button {
         width: 140px;
         height: 36px;
+    }
+
+    .section-title {
+        padding-top: 96px;
+        padding-bottom: 36px;
+    }
+
+    .section-padding {
+        padding-bottom: 96px;
     }
 
 }

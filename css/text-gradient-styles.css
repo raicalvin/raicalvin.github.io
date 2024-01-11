@@ -1,0 +1,8 @@
+.text-gradient-sky {
+    background: -webkit-linear-gradient(30deg, white, #2ABFFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}

@@ -23,6 +23,7 @@
 
     .typ-body-text {
         font-size: 16px;
+        line-height: 160%;
     }
 
     .typ-section-header {
@@ -63,6 +64,7 @@
 
     .typ-body-text {
         font-size: 18px;
+        line-height: 180%;
     }
 
     .typ-section-header {
