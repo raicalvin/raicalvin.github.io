@@ -9,3 +9,7 @@ function toggleNavigationMenu() {
     var mobileNavMenu = document.getElementById("navmenumobile");
     mobileNavMenu.classList.toggle("navigation-mobile-active");
 }
+
+function downloadResume() {
+    window.open("docs/crai_resume_public.pdf")
+ }
