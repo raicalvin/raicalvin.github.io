@@ -19,10 +19,6 @@
 
 /* 
 
-.section-resume {
-    background-color: white;
-}
-
 .section-footer {
     background-color: black;
 } 
@@ -167,7 +163,7 @@
 /* RESUME STYLES */
 /* ========================================================================== */
 
-/* .resume-title {
+.resume-title {
     color: black;
 }
 
@@ -178,7 +174,6 @@
 
 .resume-left-blue-box {
     background-color: #2ABFFF;
-    height: 250px;
     width: 50%;
 }
 
@@ -196,7 +191,7 @@
 
 .container-resume-download {
     align-items: center;
-} */
+} 
 
 /* ========================================================================== */
 /* FOOTER STYLES */

@@ -38,11 +38,8 @@
         top: 14px;
     }
 
-    /* 
-
-    .resume-image-bar-container {
-        margin-top: 42px;
-        margin-bottom: 42px;
+    .resume-left-blue-box {
+        height: 130px;
     }
 
     .resume-image {
@@ -51,20 +48,13 @@
         padding: 5px;
     }
 
-    .resume-left-blue-box {
-        height: 130px;
+    .container-resume-download {
+        padding-top: 22px;
     }
 
     .resume-subtitle {
-        margin-bottom: 24px;
-    }
-
-    .footer-note {
-        padding-top: 12px;
         padding-bottom: 12px;
-    } 
-    
-    */
+    }
 
 }
 
@@ -99,22 +89,22 @@
         top: 21px;
     }
 
-    /* 
+    .resume-left-blue-box {
+        height: 170px;
+    }
 
     .resume-image {
         width: 160px;
         height: 160px;
     }
 
-    .resume-left-blue-box {
-        height: 170px;
+    .container-resume-download {
+        padding-top: 30px;
     }
 
     .resume-subtitle {
-        margin-bottom: 30px;
-    } 
-    
-    */
+        padding-bottom: 16px;
+    }
 
 }
 
@@ -141,58 +131,21 @@
         top: 28px;
     }
 
-    /* 
+    .resume-left-blue-box {
+        height: 210px;
+    }
 
     .resume-image {
         width: 200px;
         height: 200px;
     }
 
-    .resume-left-blue-box {
-        height: 210px;
+    .container-resume-download {
+        padding-top: 36px;
     }
 
     .resume-subtitle {
-        margin-bottom: 36px;
-    } 
-    
-    */
-
-}
-
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR DESKTOP */
-/* These are the media queries for a 1200px Desktop width */
-
-@media screen and (min-width: 1200px) {
-/*
-
-    .section-resume {
-        padding-top: 96px;
-        padding-bottom: 96px;
+        padding-bottom: 20px;
     }
-
-    .resume-image-bar-container {
-        margin-top: 56px;
-        margin-bottom: 56px;
-    }
-
-    .resume-image {
-        width: 240px;
-        height: 240px;
-    }
-
-    .resume-left-blue-box {
-        height: 250px;
-    }
-
-    .resume-subtitle {
-        margin-bottom: 42px;
-    }
-
-    .footer-note {
-        padding-top: 18px;
-        padding-bottom: 18px;
-    } */
 
 }
