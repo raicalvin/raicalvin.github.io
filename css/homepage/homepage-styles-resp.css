@@ -30,6 +30,10 @@
         width: 50%;
     }
 
+    .android-project-item {
+        width: 50%;
+    }
+
     .item-android-project-thumb-title {
         top: 14px;
     }
@@ -85,6 +89,14 @@
 
     .augmented-reality-project {
         width: 25%;
+    }
+
+    .android-project-item {
+        width: 25%;
+    }
+
+    .item-android-project-thumb-title {
+        top: 21px;
     }
 
     /* 
