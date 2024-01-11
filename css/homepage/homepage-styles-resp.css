@@ -26,10 +26,7 @@
         margin-top: 22px;
     }
 
-    /* .about-me-description {
-        padding-top: 34px;
-    }
-
+    /* 
     .container-augmented-reality-projects {
         padding-top: 34px;
         width: 284px;
@@ -196,9 +193,6 @@
 
 @media screen and (min-width: 1200px) {
 /*
-    .about-me-description {
-        padding-top: 42px;
-    }
 
     .section-augmented-reality {
         padding-top: 96px;

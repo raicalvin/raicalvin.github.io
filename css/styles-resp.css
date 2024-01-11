@@ -23,6 +23,11 @@
         padding-bottom: 30px;
     }
 
+    .section-fun-quote {
+        padding-top: 68px;
+        padding-bottom: 68px;
+    }
+
 }
 
 /* ========================================================================== */
@@ -50,6 +55,11 @@
         padding-bottom: 30px;
     }
 
+    .section-fun-quote {
+        padding-top: 124px;
+        padding-bottom: 124px;
+    }
+
 }
 
 /* ========================================================================== */
@@ -75,6 +85,11 @@
 
     .section-padding {
         padding-bottom: 96px;
+    }
+
+    .section-fun-quote {
+        padding-top: 180px;
+        padding-bottom: 180px;
     }
 
 }
