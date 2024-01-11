@@ -11,10 +11,6 @@
     height: 532px;
 }
 
-.section-footer {
-    background-color: black;
-}
-
 /* === === === === === === === === === === === === === === === */
 /* VIDEOGRAPHY HERO STYLES */
 /* These are styles specific to the hero part in the videography page */
@@ -140,15 +136,4 @@
 
 .youtube-button {
     margin-bottom: 12px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* FOOTER STYLES */
-/* These are styles specific to the footer on the videography page */
-
-.footer-note {
-    color: white;
-    padding-top: 34px;
-    padding-bottom: 34px;
-    text-align: center;
 }

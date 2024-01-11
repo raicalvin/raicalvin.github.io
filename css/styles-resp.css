@@ -28,6 +28,11 @@
         padding-bottom: 68px;
     }
 
+    .footer-note {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
 }
 
 /* ========================================================================== */
@@ -60,6 +65,11 @@
         padding-bottom: 124px;
     }
 
+    .footer-note {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
 }
 
 /* ========================================================================== */
@@ -90,6 +100,11 @@
     .section-fun-quote {
         padding-top: 180px;
         padding-bottom: 180px;
+    }
+
+    .footer-note {
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 
 }
