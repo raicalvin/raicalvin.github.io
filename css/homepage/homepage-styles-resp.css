@@ -30,22 +30,11 @@
         width: 50%;
     }
 
-    /* 
-
-    .container-android-projects {
-        padding-top: 34px;
-        width: 304px;
-    }
-
-    .android-project-item {
-        height: 150px;
-        width: 150px;
-        margin: 1px;
-    }
-
     .item-android-project-thumb-title {
         top: 14px;
     }
+
+    /* 
 
     .resume-image-bar-container {
         margin-top: 42px;
@@ -100,16 +89,6 @@
 
     /* 
 
-    .container-android-projects {
-        padding-top: 52px;
-        width: 708px;
-    }
-
-    .android-project-item {
-        height: 175px;
-        width: 175px;
-    }
-
     .resume-image {
         width: 160px;
         height: 160px;
@@ -146,17 +125,11 @@
         margin-top: 36px;
     }
 
+    .item-android-project-thumb-title {
+        top: 28px;
+    }
+
     /* 
-
-    .container-android-projects {
-        padding-top: 74px;
-        width: 908px;
-    }
-
-    .android-project-item {
-        height: 200px;
-        width: 200px;
-    }
 
     .resume-image {
         width: 200px;
@@ -181,26 +154,6 @@
 
 @media screen and (min-width: 1200px) {
 /*
-
-    .section-android-projects {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
-
-    .container-android-projects {
-        padding-top: 96px;
-        width: 908px;
-    }
-
-    .android-project-item {
-        height: 225px;
-        width: 225px;
-        margin: 1px;
-    }
-
-    .item-android-project-thumb-title {
-        top: 22px;
-    }
 
     .section-resume {
         padding-top: 96px;
