@@ -15,10 +15,6 @@
     margin-bottom: 76px;
 }
 
-.section-footer {
-    background-color: black;
-}
-
 /* === === === === === === === === === === === === === === === */
 /* ARCHIVE HERO STYLES */
 /* These are styles specific to the hero part in the archive page */
@@ -68,15 +64,4 @@
 .design-samples-bento-image {
     aspect-ratio: 4 / 3;
     background-size: cover;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* FOOTER STYLES */
-/* These are styles specific to the footer on the archive page */
-
-.footer-note {
-    color: white;
-    padding-top: 34px;
-    padding-bottom: 34px;
-    text-align: center;
 }

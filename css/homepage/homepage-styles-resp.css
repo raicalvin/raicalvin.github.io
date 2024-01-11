@@ -3,54 +3,43 @@
     of the home page of the website.
 */
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPHONE (363px) */
-/* These are the media queries for a 363px iPhone width */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPHONE - 320px */
+/* ========================================================================== */
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
+
+    .container-header {
+        padding-top: 168px;
+    }
 
     .container-header > button {
-        margin-top: 34px;
+        margin-top: 24px;
     }
 
-    .about-me-description {
-        padding-top: 34px;
+    .hero-bottom-chevron {
+        height: 18px;
+        bottom: 8px;
     }
 
-    .section-vertical-padding {
-        padding-top: 76px;
-        padding-bottom: 76px;
+    .about-me-ending-line {
+        margin-top: 22px;
     }
 
-    .container-augmented-reality-projects {
-        padding-top: 34px;
-        width: 284px;
-        gap: 4px;
-    }
-
-    .augmented-reality-project-screenshot {
-        width: 140px;
-        height: auto;
-    }
-
-    .container-android-projects {
-        padding-top: 34px;
-        width: 304px;
+    .augmented-reality-project {
+        width: 50%;
     }
 
     .android-project-item {
-        height: 150px;
-        width: 150px;
-        margin: 1px;
+        width: 50%;
     }
 
     .item-android-project-thumb-title {
         top: 14px;
     }
 
-    .resume-image-bar-container {
-        margin-top: 42px;
-        margin-bottom: 42px;
+    .resume-left-blue-box {
+        height: 130px;
     }
 
     .resume-image {
@@ -59,45 +48,49 @@
         padding: 5px;
     }
 
-    .resume-left-blue-box {
-        height: 130px;
+    .container-resume-download {
+        padding-top: 22px;
     }
 
     .resume-subtitle {
-        margin-bottom: 24px;
-    }
-
-    .footer-note {
-        padding-top: 12px;
         padding-bottom: 12px;
     }
 
 }
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR ??? */
-/* These are the media queries for ??? */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPAD - 768px */
+/* ========================================================================== */
 
 @media screen and (min-width: 768px) {
 
-    .augmented-reality-project-screenshot {
-        width: 160px;
+    .container-header > button {
+        margin-top: 36px;
     }
 
-    .container-augmented-reality-projects {
-        padding-top: 52px;
-        width: 664px;
-        gap: 8px;
+    .hero-bottom-chevron {
+        height: 20px;
+        bottom: 10px;
     }
 
-    .container-android-projects {
-        padding-top: 52px;
-        width: 708px;
+    .about-me-ending-line {
+        margin-top: 30px;
+    }
+
+    .augmented-reality-project {
+        width: 25%;
     }
 
     .android-project-item {
-        height: 175px;
-        width: 175px;
+        width: 25%;
+    }
+
+    .item-android-project-thumb-title {
+        top: 21px;
+    }
+
+    .resume-left-blue-box {
+        height: 170px;
     }
 
     .resume-image {
@@ -105,145 +98,54 @@
         height: 160px;
     }
 
-    .resume-left-blue-box {
-        height: 170px;
+    .container-resume-download {
+        padding-top: 30px;
     }
 
     .resume-subtitle {
-        margin-bottom: 30px;
+        padding-bottom: 16px;
     }
 
 }
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPAD PRO */
-/* These are the media queries for a 1024px iPad width */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR DESKTOP - 1024px */
+/* ========================================================================== */
 
 @media screen and (min-width: 1024px) {
 
-    .augmented-reality-project-screenshot {
-        width: 180px;
+    .container-header > button {
+        margin-top: 48px;
     }
 
-    .container-augmented-reality-projects {
-        padding-top: 74px;
-        width: 744px;
-        gap: 8px;
+    .hero-bottom-chevron {
+        height: 22px;
+        bottom: 12px;
     }
 
-    .container-android-projects {
-        padding-top: 74px;
-        width: 908px;
+    .about-me-ending-line {
+        margin-top: 36px;
     }
 
-    .android-project-item {
-        height: 200px;
-        width: 200px;
-    }
-
-    .resume-image {
-        width: 200px;
-        height: 200px;
+    .item-android-project-thumb-title {
+        top: 28px;
     }
 
     .resume-left-blue-box {
         height: 210px;
     }
 
-    .resume-subtitle {
-        margin-bottom: 36px;
-    }
-
-}
-
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR DESKTOP */
-/* These are the media queries for a 1200px Desktop width */
-
-@media screen and (min-width: 1200px) {
-
-    .container-header {
-        padding-top: 162px;
-    }
-
-    .container-header > button {
-        margin-top: 58px;
-    }
-
-    .hero-bottom-chevron {
-        height: 28px;
-    }
-
-    .section-about-me {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
-
-    .about-me-description {
-        padding-top: 42px;
-    }
-
-    .section-augmented-reality {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
-
-    .container-augmented-reality-projects {
-        padding-top: 96px;
-        width: 996px;
-        gap: 12px;
-    }
-
-    .augmented-reality-project-screenshot {
-        width: 200px;
-    }
-
-    .section-android-projects {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
-
-    .container-android-projects {
-        padding-top: 96px;
-        width: 908px;
-    }
-
-    .android-project-item {
-        height: 225px;
-        width: 225px;
-        margin: 1px;
-    }
-
-    .item-android-project-thumb-title {
-        top: 22px;
-    }
-
-    .section-resume {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
-
-    .resume-image-bar-container {
-        margin-top: 56px;
-        margin-bottom: 56px;
-    }
-
     .resume-image {
-        width: 240px;
-        height: 240px;
+        width: 200px;
+        height: 200px;
     }
 
-    .resume-left-blue-box {
-        height: 250px;
+    .container-resume-download {
+        padding-top: 36px;
     }
 
     .resume-subtitle {
-        margin-bottom: 42px;
-    }
-
-    .footer-note {
-        padding-top: 18px;
-        padding-bottom: 18px;
+        padding-bottom: 20px;
     }
 
 }

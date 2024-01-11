@@ -1,10 +1,10 @@
-/* 
+/*
     Styles defined in this file apply only to the homepage of this website.
 */
 
-/* === === === === === === === === === === === === === === === */
-/* SECTIONS */
-/* This are full-width sections of your websites that will house your containers */
+/* ========================================================================== */
+/* SECTION STYLES */
+/* ========================================================================== */
 
 .section-header {
     background: url("../../img/hero-image.jpg"); 
@@ -17,60 +17,26 @@
     height: 100vh;
 }
 
-.section-about-me {
-    background-color: black;
-}
-
-.section-augmented-reality {
-    background-color: black;
-    height: auto;
-}
-
-.section-android-projects {
-    background-color: black;
-    height: auto;
-}
-
-.section-resume {
-    background-color: white;
-}
-
-.section-footer {
-    background-color: black;
-}
-
-/* === === === === === === === === === === === === === === === */
+/* ========================================================================== */
 /* HERO STYLES */
-/* These are styles specific to the hero part in the home page */
+/* ========================================================================== */
 
 .container-header {
     color: white;
-    padding-top: 200px;
 }
 
 .hero-bottom-chevron {
     color: white;
-    height: 18px;
     opacity: 0.7;
     position: absolute;
-    bottom: 12px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
-/* === === === === === === === === === === === === === === === */
+/* ========================================================================== */
 /* ABOUT ME STYLES */
-/* These are styles specific to the about-me part */
-
-.about-me-title {
-    background: -webkit-linear-gradient(30deg, white, #2ABFFF);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-}
+/* ========================================================================== */
 
 .about-me-description {
     color: #E7E7E7;
@@ -80,21 +46,11 @@
     width: 40px;
     height: 2px;
     background-color: #2ABFFF;
-    margin-top: 42px;
 }
 
-/* === === === === === === === === === === === === === === === */
+/* ========================================================================== */
 /* AUGMENTED REALITY STYLES */
-/* These are styles specific to the augmented reality part of the site */
-
-.augmented-reality-title {
-    background: -webkit-linear-gradient(30deg, white, #B300FF);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-}
+/* ========================================================================== */
 
 .container-augmented-reality-projects {
     display: flex;
@@ -112,8 +68,8 @@
 }
 
 .augmented-reality-project-screenshot {
-    width: 200px;
-    height: auto;
+    width: 100%;
+    display: block;
 }
 
 .augmented-reality-project-overlay {
@@ -148,49 +104,35 @@
     opacity: 1;
 }
 
-/* === === === === === === === === === === === === === === === */
+/* ========================================================================== */
 /* ANDROID PROJECTS STYLES */
-/* These are styles specific to the android projects part of the site */
-
-.android-projects-title {
-    background: -webkit-linear-gradient(30deg, white, #30DB37);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-}
+/* ========================================================================== */
 
 .container-android-projects {
     display: flex;
     flex-wrap: wrap;
-    left: 0px;
-    right: 0px;
-    margin: auto;
+    width: 100%;
     justify-content: center;
 }
 
 .android-project-item {
     position: relative;
     text-align: center;
+    height: auto;
 }
 
-.android-project-item:hover .item-android-project-thumb-title {
-    visibility: visible;
-    opacity: 1;
+.item-android-projects-thumb-grayscale {
+    transition: 0.5s;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    width: 100%;
+    display: block; /* so that the anchor tag that this img lives in doesn't add weird spacing*/
 }
 
 .android-project-item:hover .item-android-projects-thumb-grayscale {
     filter: none;
     -webkit-filter: grayscale(0%);
-}
-
-.item-android-projects-thumb-grayscale {
-    transition: 0.5s;
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%); /* Chrome/Safari */
-    max-width: 100%;
 }
 
 .item-android-project-thumb-title {
@@ -204,9 +146,14 @@
     opacity: 0;
 }
 
-/* === === === === === === === === === === === === === === === */
+.android-project-item:hover .item-android-project-thumb-title {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ========================================================================== */
 /* RESUME STYLES */
-/* These are styles specific to the resume part of the site */
+/* ========================================================================== */
 
 .resume-title {
     color: black;
@@ -219,7 +166,6 @@
 
 .resume-left-blue-box {
     background-color: #2ABFFF;
-    height: 250px;
     width: 50%;
 }
 
@@ -237,15 +183,4 @@
 
 .container-resume-download {
     align-items: center;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* FOOTER STYLES */
-/* These are styles specific to the footer on the homepage */
-
-.footer-note {
-    color: white;
-    padding-top: 34px;
-    padding-bottom: 34px;
-    text-align: center;
-}
+} 

@@ -1,105 +1,110 @@
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPHONE (363px) */
-/* These are the media queries for a 363px iPhone width */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPHONE - 320px */
+/* ========================================================================== */
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
 
-    .menu {
-        display: none;
+    .container-padding {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    .menu-mobile {
-        display: flex;
+    .primary-button {
+        width: 120px;
+        height: 32px;
     }
 
-    .menu-hamburger {
-        display: flex;
+    .section-title {
+        padding-top: 30px;
+        padding-bottom: 22px;
+    }
+
+    .section-padding {
+        padding-bottom: 30px;
     }
 
     .section-fun-quote {
-        padding-top: 76px;
-        padding-bottom: 76px;
+        padding-top: 68px;
+        padding-bottom: 68px;
     }
 
-    .container {
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
-    .primary-button-light {
-        width: 120px;
-        height: 32px;
-    }
-
-    .primary-button-dark {
-        width: 120px;
-        height: 32px;
+    .footer-note {
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
 
 }
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR ??? */
-/* These are the media queries for ??? */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPAD - 768px */
+/* ========================================================================== */
 
 @media screen and (min-width: 768px) {
 
-    .menu {
-        display: flex;
-    }
-
-    .menu-mobile {
-        display: none;
-    }
-    
-    .menu-hamburger {
-        display: none;
-    }
-
-    .container {
-        padding-left: 36px;
-        padding-right: 36px;
-    }
-
-}
-
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPAD PRO */
-/* These are the media queries for a 1024px iPad width */
-
-@media screen and (min-width: 1024px) {
-
-    .container {
-        padding-left: 42px;
-        padding-right: 42px;
-    }
-
-}
-
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR DESKTOP */
-/* These are the media queries for a 1200px Desktop width */
-
-@media screen and (min-width: 1200px) {
-
-    .section-fun-quote {
-        padding-top: 196px;
-        padding-bottom: 196px;
-    }
-
-    .container {
+    .container-padding {
         padding-left: 48px;
         padding-right: 48px;
     }
 
-    .primary-button-light {
+    .primary-button {
+        width: 130px;
+        height: 34px;
+    }
+
+    .section-title {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .section-padding {
+        padding-bottom: 60px;
+    }
+
+    .section-fun-quote {
+        padding-top: 124px;
+        padding-bottom: 124px;
+    }
+
+    .footer-note {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+}
+
+/* ========================================================================== */
+/* MEDIA QUERIES FOR DESKTOP - 1024px */
+/* ========================================================================== */
+
+@media screen and (min-width: 1024px) {
+
+    .container-padding {
+        padding-left: 96px;
+        padding-right: 96px;
+    }
+
+    .primary-button {
         width: 140px;
         height: 36px;
     }
 
-    .primary-button-dark {
-        width: 140px;
-        height: 36px;
+    .section-title {
+        padding-top: 96px;
+        padding-bottom: 36px;
+    }
+
+    .section-padding {
+        padding-bottom: 96px;
+    }
+
+    .section-fun-quote {
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+
+    .footer-note {
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 
 }

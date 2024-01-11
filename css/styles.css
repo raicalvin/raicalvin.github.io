@@ -1,11 +1,11 @@
-/* 
-    Styles defined in this file apply to all pages of the website and should
-    be the first stylesheet that is imported for all pages.
+/*
+    Styles defined in this file apply to all pages of the website and should be 
+    the first stylesheet that is imported for all pages.
 */
 
-/* === === === === === === === === === === === === === === === */
-/* DEFAULT STYLES */
-/* These are default styles applied to all document elements */
+/* ========================================================================== */
+/* DEFAULT PAGE STYLES */
+/* ========================================================================== */
 
 * {
     /* Default font-family for website */
@@ -21,21 +21,29 @@ p {
     padding: 0;
 }
 
-/* === === === === === === === === === === === === === === === */
-/* SECTIONS */
-/* These are the primary sections of your website that are used everywhere. */
+/* ========================================================================== */
+/* DEFAULT SECTION STYLES */
+/* ========================================================================== */
 
 .section-fun-quote {
     background-color: #E7E7E7;
 }
 
-/* === === === === === === === === === === === === === === === */
-/* CONTAINERS */
-/* These are the main boxes within each of your sections that pertain to responsive rules. */
+.section-black-bg {
+    background-color: black;
+}
+
+.section-white-bg {
+    background-color: white;
+}
+
+/* ========================================================================== */
+/* DEFAULT CONTAINER STYLES */
+/* ========================================================================== */
 
 .container {
     display: flex;
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -44,9 +52,9 @@ p {
     flex-direction: column;
 }
 
-/* === === === === === === === === === === === === === === === */
-/* BUTTON STYLES */
-/* These are the default button styles applied to all buttons. */
+/* ========================================================================== */
+/* DEFAULT BUTTON STYLES */
+/* ========================================================================== */
 
 .primary-button-light {
     text-align: center;
@@ -56,8 +64,6 @@ p {
     color: white;
     transition-duration: 0.25s;
     cursor: pointer;
-    width: 140px;
-    height: 36px;
 }
 
 .primary-button-light:hover {
@@ -73,8 +79,6 @@ p {
     color: black;
     transition-duration: 0.25s;
     cursor: pointer;
-    width: 140px;
-    height: 36px;
 }
 
 .primary-button-dark:hover {
@@ -82,17 +86,31 @@ p {
     color: white;
 }
 
-/* === === === === === === === === === === === === === === === */
-/* FUN QUOTES STYLES */
-/* These are styles specific to the one-line sections breaking up the website */
+/* ========================================================================== */
+/* DEFAULT FUN QUOTE STYLES */
+/* ========================================================================== */
 
 .container-fun-quote {
     align-items: center;
     justify-content: center;
 }
 
+.fun-quote-text {
+    text-align: center;
+}
+
 .fun-quote-colored-word {
     font-family: inherit;
     font-size: inherit;
     color: #0096FF;
+    background: none;
+}
+
+/* ========================================================================== */
+/* DEFAULT FOOTER STYLES */
+/* ========================================================================== */
+
+.footer-note {
+    color: white;
+    text-align: center;
 }

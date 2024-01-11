@@ -1,19 +1,21 @@
-/* === === === === === === === === === === === === === === === */
+/*
+    Styles defined in this file are specific to the navigation menu components
+    used throughout all pags of the website.
+*/
+
+/* ========================================================================== */
 /* NAVIGATION STYLES */
-/* These are styles specific to the nav menu and nav bar */
+/* ========================================================================== */
 
 .navigation {
     display: flex;
-    padding-top: 112px;
     justify-content: flex-end;
 }
 
 .menu {
     list-style-type: none;
     list-style: none;
-    gap: 4px;
     margin: 0;
-    /* border: solid 1px red; */
 }
 
 .menu a:hover {
@@ -31,9 +33,9 @@
     visibility: hidden;
 }
 
-/* === === === === === === === === === === === === === === === */
+/* ========================================================================== */
 /* NAVIGATION MOBILE STYLES */
-/* These are styles specific to the mobile version of navigation */
+/* ========================================================================== */
 
 .navigation-mobile {
     display: flex;
