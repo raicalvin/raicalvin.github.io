@@ -17,24 +17,20 @@
     height: 100vh;
 }
 
-/* 
 .section-augmented-reality {
     background-color: black;
     height: auto;
 }
 
-.section-android-projects {
-    background-color: black;
-    height: auto;
-}
-
+/* 
 .section-resume {
     background-color: white;
 }
 
 .section-footer {
     background-color: black;
-} */
+} 
+*/
 
 /* ========================================================================== */
 /* HERO STYLES */
@@ -71,15 +67,6 @@
 /* AUGMENTED REALITY STYLES */
 /* ========================================================================== */
 
-/* .augmented-reality-title {
-    background: -webkit-linear-gradient(30deg, white, #B300FF);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-}
-
 .container-augmented-reality-projects {
     display: flex;
     flex-wrap: wrap;
@@ -96,8 +83,7 @@
 }
 
 .augmented-reality-project-screenshot {
-    width: 200px;
-    height: auto;
+    width: 100%;
 }
 
 .augmented-reality-project-overlay {
@@ -130,7 +116,7 @@
 
 .augmented-reality-project:hover .augmented-reality-project-thumb-caption {
     opacity: 1;
-} */
+}
 
 /* ========================================================================== */
 /* ANDROID PROJECTS STYLES */

@@ -6,3 +6,12 @@
     width: fit-content;
     -webkit-text-fill-color: transparent;
 }
+
+.text-gradient-matrix {
+    background: -webkit-linear-gradient(30deg, white, #B300FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
