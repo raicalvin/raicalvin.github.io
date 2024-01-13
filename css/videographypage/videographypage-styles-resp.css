@@ -9,21 +9,6 @@
 
 @media screen and (min-width: 320px) {
 
-    .latest-cinematic-video {
-        aspect-ratio: 16 / 9;
-        width: 100%;
-    }
-
-    .video-item-container {
-        aspect-ratio: 16 / 9;
-        width: 100%;
-    }
-
-    .video-item {
-        width: 100%;
-        height: 100%;
-    }
-
     .videography-bento-item-container {
         aspect-ratio: 4 / 3;
         width: 100%;
@@ -43,15 +28,6 @@
 
 @media screen and (min-width: 768px) {
 
-    .video-item-container {
-        width: 50%;
-    }
-
-    .video-item {
-        padding: 2px;
-        box-sizing: border-box; /* to ensure width of 100% respects internal padding */
-    }
-
     .videography-bento-item-container {
         width: 50%;
     }
@@ -68,10 +44,6 @@
 /* ========================================================================== */
 
 @media screen and (min-width: 1024px) {
-
-    .latest-cinematic-video {
-        max-width: 1024px;
-    }
 
     .section-equipment-gear-padding {
         padding-top: 96px;
