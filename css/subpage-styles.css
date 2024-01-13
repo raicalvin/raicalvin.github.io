@@ -1,3 +1,12 @@
+/*
+    Styles defined in this file apply to all subpages of the website and should 
+    the second stylesheet that is imported after styles.css.
+*/
+
+/* ========================================================================== */
+/* SUBPAGE HEADER STYLES */
+/* ========================================================================== */
+
 .subpage-header-title {
     color: white;
 }
