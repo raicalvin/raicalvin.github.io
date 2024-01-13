@@ -9,11 +9,6 @@
 
 @media screen and (min-width: 320px) {
 
-    .latest-cinematic-video {
-        aspect-ratio: 16 / 9;
-        width: 100%;
-    }
-
     .video-item-container {
         aspect-ratio: 16 / 9;
         width: 100%;
@@ -68,10 +63,6 @@
 /* ========================================================================== */
 
 @media screen and (min-width: 1024px) {
-
-    .latest-cinematic-video {
-        max-width: 1024px;
-    }
 
     .section-equipment-gear-padding {
         padding-top: 96px;

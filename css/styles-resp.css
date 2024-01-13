@@ -102,6 +102,10 @@
         padding-bottom: 180px;
     }
 
+    .feature-video {
+        max-width: 1024px;
+    }
+
     .footer-note {
         padding-top: 24px;
         padding-bottom: 24px;
