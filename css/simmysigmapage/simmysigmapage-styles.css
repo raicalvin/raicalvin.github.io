@@ -6,15 +6,6 @@
 /* SECTIONS */
 /* This are full-width sections of your websites that will house your containers */
 
-.section-simmysigma-header {
-    background-color: black;
-    height: 532px;
-}
-
-.section-why-simmy-sigma {
-    background-color: #E7E7E7;
-}
-
 .section-simmy-sigma-playlists {
     background-color: white;
 }
@@ -45,17 +36,6 @@
 .intro-video-container {
     display: flex;
     justify-content: center;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* WHY SIMMY SIGMA STYLES */
-/* These are styles specific to the about part of simmy sigma */
-
-.simmy-sigma-about-copy {
-    padding-top: 48px;
-    padding-bottom: 48px;
-    padding-left: 120px;
-    padding-right: 120px;
 }
 
 /* === === === === === === === === === === === === === === === */
