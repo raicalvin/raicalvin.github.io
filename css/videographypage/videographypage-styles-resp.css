@@ -24,6 +24,17 @@
         height: 100%;
     }
 
+    .videography-bento-item-container {
+        aspect-ratio: 4 / 3;
+        width: 100%;
+        background-color: #181818;
+    }
+
+    .section-equipment-gear-padding {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
 }
 
 /* ========================================================================== */
@@ -41,6 +52,15 @@
         box-sizing: border-box; /* to ensure width of 100% respects internal padding */
     }
 
+    .videography-bento-item-container {
+        width: 50%;
+    }
+
+    .section-equipment-gear-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
 }
 
 /* ========================================================================== */
@@ -51,6 +71,11 @@
 
     .latest-cinematic-video {
         max-width: 1024px;
+    }
+
+    .section-equipment-gear-padding {
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
 }
@@ -64,18 +89,6 @@
 /* @media screen and (min-width: 360px) { */
 
     /* 
-
-    .other-video {
-        aspect-ratio: 16 / 9;
-        width: 100%;
-    }
-
-    .videography-bento-item-box {
-        aspect-ratio: 4 / 3;
-        width: 100%;
-        background-color: #181818;
-        background-clip: padding-box;
-    }
 
     .calvin-ry-picture {
         width: 120px;
@@ -101,10 +114,6 @@
 
     .other-video {
         width: 340px;
-    }
-
-    .videography-bento-item-box {
-        width: 49%;
     }
 
     .calvin-ry-picture {

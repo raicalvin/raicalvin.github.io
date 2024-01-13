@@ -2,23 +2,10 @@
     Styles defined in this file apply to the videography page of this website.
 */
 
+/* ========================================================================== */
+/* MY EQUIPMENT AND GEAR STYLES                                               */
+/* ========================================================================== */
 
-
-
-
-
-/* === === === === === === === === === === === === === === === */
-/* BENTO BOX SECTION STYLES */
-/* These are styles specific to the 4 bento boxes */
-
-.container-equipment-and-gear {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
 
 .videography-bento-text {
     display: flex;
