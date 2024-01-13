@@ -1,40 +1,32 @@
-/* 
-    Styles defined in this file apply only to the videography page of this website.
+/*
+    Styles defined in this file apply to the videography page of this website.
 */
 
-/* === === === === === === === === === === === === === === === */
+/* ========================================================================== */
 /* LATEST CINEMATIC STYLES */
-/* These are styles specific to the latest cinematic part */
-
-.latest-cinematic-title {
-    background: -webkit-linear-gradient(30deg, #A945D8, #35084A);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 32px;
-}
+/* ========================================================================== */
 
 .latest-cinematic-video-container {
+
+}
+
+/* .latest-cinematic-video-container {
     display: flex;
     justify-content: center;
-}
+} */
+
+
+
+
+
+
+
+
+
 
 /* === === === === === === === === === === === === === === === */
 /* OTHER VIDEOS STYLES */
 /* These are styles specific to the other videos row part */
-
-.other-videos-title {
-    background: -webkit-linear-gradient(30deg, #842EAD, #0E0E0E);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-top: 76px;
-    margin-bottom: 32px;
-}
 
 .other-videos-container {
     display: flex;
