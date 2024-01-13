@@ -2,38 +2,10 @@
     Styles defined in this file apply to the videography page of this website.
 */
 
-/* ========================================================================== */
-/* LATEST CINEMATIC STYLES */
-/* ========================================================================== */
-
-.latest-cinematic-video-container {
-
-}
-
-/* .latest-cinematic-video-container {
-    display: flex;
-    justify-content: center;
-} */
 
 
 
 
-
-
-
-
-
-
-/* === === === === === === === === === === === === === === === */
-/* OTHER VIDEOS STYLES */
-/* These are styles specific to the other videos row part */
-
-.other-videos-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4px;
-}
 
 /* === === === === === === === === === === === === === === === */
 /* BENTO BOX SECTION STYLES */
