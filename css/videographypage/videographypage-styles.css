@@ -3,24 +3,6 @@
 */
 
 /* === === === === === === === === === === === === === === === */
-/* SECTIONS */
-/* This are full-width sections of your websites that will house your containers */
-
-.section-videography-header {
-    background-color: black;
-    height: 532px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* VIDEOGRAPHY HERO STYLES */
-/* These are styles specific to the hero part in the videography page */
-
-.container-videography-header {
-    color: white;
-    padding-top: 143px;
-}
-
-/* === === === === === === === === === === === === === === === */
 /* LATEST CINEMATIC STYLES */
 /* These are styles specific to the latest cinematic part */
 
