@@ -28,6 +28,16 @@
         padding-bottom: 68px;
     }
 
+    .video-item-container {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    }
+
+    .video-item {
+        width: 100%;
+        height: 100%;
+    }
+
     .footer-note {
         padding-top: 12px;
         padding-bottom: 12px;
@@ -63,6 +73,15 @@
     .section-fun-quote {
         padding-top: 124px;
         padding-bottom: 124px;
+    }
+
+    .video-item-container {
+        width: 50%;
+    }
+
+    .video-item {
+        padding: 2px;
+        box-sizing: border-box; /* to ensure width of 100% respects internal padding */
     }
 
     .footer-note {
