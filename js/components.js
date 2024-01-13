@@ -35,7 +35,7 @@ customElements.define('navigation-menu-mobile', NavigationMenuMobile)
 class NavigationMenuSubpage extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <nav id="navmenu" class="container navigation">
+            <nav id="navmenu" class="container container-padding navigation">
                 <ul class="menu">
                     <li><a href="../index.html" class="typ-body-text menu-item">Home</a></li>
                     <li class="typ-body-text menu-item">|</li>

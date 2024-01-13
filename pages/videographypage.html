@@ -13,12 +13,17 @@
     <title>Calvin Rai</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/subpage-styles.css">
     <link rel="stylesheet" href="../css/font-styles.css">
+    <link rel="stylesheet" href="../css/social-styles.css">
+    <link rel="stylesheet" href="../css/text-gradient-styles.css">
     <link rel="stylesheet" href="../css/typography.css">
     <link rel="stylesheet" href="../css/navigation/navigation-styles.css">
     <link rel="stylesheet" href="../css/videographypage/videographypage-styles.css">
     <!-- This stylesheet should be the last one to override above styles in media queries -->
+    <link rel="stylesheet" href="../css/social-styles-resp.css">
     <link rel="stylesheet" href="../css/styles-resp.css">
+    <link rel="stylesheet" href="../css/subpage-styles-resp.css">
     <link rel="stylesheet" href="../css/typography-resp.css">
     <link rel="stylesheet" href="../css/navigation/navigation-styles-resp.css">
     <link rel="stylesheet" href="../css/videographypage/videographypage-styles-resp.css">
@@ -26,55 +31,46 @@
 
 <body>
     <main>
-
         <!-- Videography Page Header -->
-        <header class="section-videography-header">
-
+        <header class="section-black-bg">
             <!-- Mobile Navigation Menu -->
             <navigation-menu-subpage-mobile></navigation-menu-subpage-mobile>
-
             <!-- Navigation Menu -->
             <navigation-menu-subpage></navigation-menu-subpage>
-
             <!-- Header Title -->
-            <div class="container vertical-flex-container container-videography-header">
+            <div class="container vertical-flex-container container-padding subpage-header-title">
                 <p class="typ-title-header">Lights, Camera, Action!</p>
                 <p class="typ-display-subheader">Check out some of the video projects I've been working on!</p>
             </div>
-
         </header>
 
         <!-- Latest iPhone Cinematic Video Section -->
-        <section class="section-latest-cinematic section-vertical-padding">
-            <div class="container vertical-flex-container">
-                <p class="typ-section-header latest-cinematic-title">My Latest iPhone Cinematic</p>
-                <div class="latest-cinematic-video-container">
-                    <iframe class="latest-cinematic-video"
-                        src="https://www.youtube.com/embed/1QlxxEVXSY4?si=QTnRaFKm-2GOWbJa" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
+        <section class="section-white-bg section-padding">
+            <!-- Latest Cinematic Title -->
+            <div class="container vertical-flex-container container-padding">
+                <p class="typ-section-header section-title text-gradient-matrix-dark">My Latest iPhone Cinematic</p>
             </div>
-            <div class="container vertical-flex-container">
-                <p class="typ-section-header other-videos-title">Other Videos</p>
-                <div class="other-videos-container">
-                    <iframe class="other-video" src="https://www.youtube.com/embed/ZvWOiKwq_5Q?si=nZDM4e1lalXbx6HQ"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <iframe class="other-video" src="https://www.youtube.com/embed/vH3wCDxaXJY?si=G-qSbZupatTLm33r"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <iframe class="other-video" src="https://www.youtube.com/embed/Rsaf5eYu3po?si=Zn0OVCUB3xsLNZd-"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <iframe class="other-video" src="https://www.youtube.com/embed/9JLN_RfZRL4?si=Cbybc70SQybKCoGn"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+            <!-- Latest Cinematic Video -->
+            <div class="container">
+                <iframe class="latest-cinematic-video" src="https://www.youtube.com/embed/1QlxxEVXSY4?si=QTnRaFKm-2GOWbJa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <!-- Other Videos Title -->
+            <div class="container container-padding">
+                <p class="typ-section-header section-title text-gradient-matrix-dark">Other Videos</p>
+            </div>
+            <!-- Other Videos Container -->
+            <div class="container horizontal-flex-container">
+                <div class="video-item-container">
+                    <iframe class="video-item" src="https://www.youtube.com/embed/ZvWOiKwq_5Q?si=nZDM4e1lalXbx6HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-item-container">
+                    <iframe class="video-item" src="https://www.youtube.com/embed/vH3wCDxaXJY?si=G-qSbZupatTLm33r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-item-container">
+                    <iframe class="video-item" src="https://www.youtube.com/embed/Rsaf5eYu3po?si=Zn0OVCUB3xsLNZd-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-item-container">
+                    <iframe class="video-item" src="https://www.youtube.com/embed/9JLN_RfZRL4?si=Cbybc70SQybKCoGn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -87,21 +83,21 @@
         </section>
 
         <!-- Equipment, Gear, & Skills -->
-        <section class="section-videography-equipment section-vertical-padding">
-            <div class="container container-equipment-and-gear">
-                <div class="videography-bento-item-box videography-bento-text">
-                    <p class="typ-caption videography-bento-caption">My Equipment</p>
-                    <p class="typ-body-text">iPhone 13 Pro</p>
-                    <p class="typ-body-text">BenQ PD2700U Monitor</p>
-                    <p class="typ-body-text">M1 Max Mac Studio</p>
-                </div>
-                <div class="videography-bento-item-box videography-bento-image-1"></div>
-                <div class="videography-bento-item-box videography-bento-image-2"></div>
-                <div class="videography-bento-item-box videography-bento-text">
+        <section class="section-white-bg section-equipment-gear-padding">
+            <div class="container horizontal-flex-container">
+                <div class="videography-bento-item-container videography-bento-text">
                     <p class="typ-caption videography-bento-caption">My Software</p>
                     <p class="typ-body-text">Final Cut Pro X</p>
                     <p class="typ-body-text">iOS Camera App</p>
                     <p class="typ-body-text">LumaFusion for iPad</p>
+                </div>
+                <div class="videography-bento-item-container videography-bento-image-1"></div>
+                <div class="videography-bento-item-container videography-bento-image-2"></div>
+                <div class="videography-bento-item-container videography-bento-text">
+                    <p class="typ-caption videography-bento-caption">My Equipment</p>
+                    <p class="typ-body-text">iPhone 13 Pro</p>
+                    <p class="typ-body-text">BenQ PD2700U Monitor</p>
+                    <p class="typ-body-text">M1 Max Mac Studio</p>
                 </div>
             </div>
         </section>
@@ -109,33 +105,37 @@
         <!-- Fun Quote Section -->
         <section class="section-fun-quote">
             <div class="container container-fun-quote">
-                <p class="typ-section-fun-quote fun-quote-text">...and I love being able to tell a <span
-                        class="fun-quote-colored-word">story</span> with them!</p>
+                <p class="typ-section-fun-quote fun-quote-text">...and I love being able to tell a <span class="fun-quote-colored-word">story</span> with them!</p>
             </div>
         </section>
 
-        <!-- Calvin Ry Instagram -->
-        <section class="section-calvin-ry-instagram section-vertical-padding">
-            <!-- Title -->
-            <div class="container vertical-flex-container">
-                <p class="typ-section-header instagram-title">YouTube & Instagram</p>
+        <!-- Calvin Ry Social Contacts -->
+        <section class="section-white-bg section-padding">
+            <!-- YouTube & Instagram Titles -->
+            <div class="container vertical-flex-container container-padding">
+                <p class="typ-section-header section-title text-gradient-matrix-dark">YouTube & Instagram</p>
             </div>
-            <!-- Picture -->
-            <div class="calvin-ry-picture-container">
-                <img class="calvin-ry-picture" src="../img/calvin-ry-profile.jpg">
-            </div>
-            <!-- Instagram Button -->
-            <div class="container vertical-flex-container container-calvin-ry-contact">
-                <p class="typ-body-text calvin-ry-subtitle">Check out my Channel and latest updates here!</p>
-                <button href="https://www.youtube.com/@CalvinRy"
-                    class="primary-button-dark typ-button-text youtube-button">YouTube</button>
-                <button href="https://www.instagram.com/hellocalvinry/"
-                    class="primary-button-dark typ-button-text">Instagram</button>
+            <!-- Contact Card Container -->
+            <div class="container horizontal-flex-container contact-card-container">
+                <!-- Calvin Ry Channel Card -->
+                <div class="vertical-flex-container large-social-contact-item">
+                    <img class="large-social-card-picture" src="../img/calvin-ry-profile.jpg">
+                    <p class="typ-body-text calvin-ry-subtitle">Check out my Channel and latest updates here!</p>
+                    <button href="https://www.youtube.com/@CalvinRy" class="primary-button primary-button-dark typ-button-text">YouTube</button>
+                    <button href="https://www.instagram.com/hellocalvinry/" class="primary-button primary-button-dark typ-button-text">Instagram</button>
+                </div>
+                <!-- YallSeenMyPhoto Channel Card -->
+                <div class="vertical-flex-container large-social-contact-item">
+                    <img class="large-social-card-picture" src="../img/calvin-ry-profile.jpg">
+                    <p class="typ-body-text calvin-ry-subtitle">Check out my Channel and latest updates here!</p>
+                    <button href="https://www.youtube.com/@CalvinRy" class="primary-button primary-button-dark typ-button-text youtube-button">YouTube</button>
+                    <button href="https://www.instagram.com/hellocalvinry/" class="primary-button primary-button-dark typ-button-text">Instagram</button>
+                </div>
             </div>
         </section>
 
         <!-- Footer -->
-        <section class="section-footer">
+        <section class="section-black-bg">
             <p class="footer-note typ-caption">Made with 💙. And some JavaScript. By Calvin.</p>
         </section>
 

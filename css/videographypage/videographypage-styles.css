@@ -1,78 +1,10 @@
-/* 
-    Styles defined in this file apply only to the videography page of this website.
+/*
+    Styles defined in this file apply to the videography page of this website.
 */
 
-/* === === === === === === === === === === === === === === === */
-/* SECTIONS */
-/* This are full-width sections of your websites that will house your containers */
-
-.section-videography-header {
-    background-color: black;
-    height: 532px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* VIDEOGRAPHY HERO STYLES */
-/* These are styles specific to the hero part in the videography page */
-
-.container-videography-header {
-    color: white;
-    padding-top: 143px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* LATEST CINEMATIC STYLES */
-/* These are styles specific to the latest cinematic part */
-
-.latest-cinematic-title {
-    background: -webkit-linear-gradient(30deg, #A945D8, #35084A);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 32px;
-}
-
-.latest-cinematic-video-container {
-    display: flex;
-    justify-content: center;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* OTHER VIDEOS STYLES */
-/* These are styles specific to the other videos row part */
-
-.other-videos-title {
-    background: -webkit-linear-gradient(30deg, #842EAD, #0E0E0E);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-top: 76px;
-    margin-bottom: 32px;
-}
-
-.other-videos-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* BENTO BOX SECTION STYLES */
-/* These are styles specific to the 4 bento boxes */
-
-.container-equipment-and-gear {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
+/* ========================================================================== */
+/* MY EQUIPMENT AND GEAR STYLES                                               */
+/* ========================================================================== */
 
 .videography-bento-text {
     display: flex;
@@ -101,39 +33,4 @@
     background-size: 100%;
     background-position: center;
     background-size: cover;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* CONTACT STYLES */
-/* These are styles specific to the contact and YouTube section */
-
-.instagram-title {
-    background: -webkit-linear-gradient(30deg, #842EAD, #0E0E0E);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 32px;
-}
-
-.calvin-ry-picture-container {
-    display: flex;
-    justify-content: center;
-}
-
-.calvin-ry-picture {
-    width: 240px;
-    height: 240px;
-    border-radius: 100%;
-    background-color: black;
-    padding: 5px;
-}
-
-.container-calvin-ry-contact {
-    align-items: center;
-}
-
-.youtube-button {
-    margin-bottom: 12px;
 }

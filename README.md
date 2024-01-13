@@ -8,6 +8,7 @@ If you need to contact me, there's a section at the very bottom of this README. 
 
 ## Version History
 
+- **v0.12**: Major code refinement for videography page and subpages
 - **v0.11**: Major code refinement for homepage, styles, and components
 - **v0.10**: Update readme and prep repo for design refinement
 - **v0.9**: Add archive and design page

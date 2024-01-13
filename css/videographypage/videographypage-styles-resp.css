@@ -1,134 +1,81 @@
 /* 
-    Styles defined in this file are specific to the responsive elements
-    of the videography page of the website.
+    Styles defined in this file are specific to the responsive elements of the
+    videography subpage.
 */
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPHONE (363px) */
-/* These are the media queries for a 363px iPhone width */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPHONE - 320px */
+/* ========================================================================== */
 
-@media screen and (min-width: 360px) {
-
-    .section-latest-cinematic {
-
-    }
+@media screen and (min-width: 320px) {
 
     .latest-cinematic-video {
         aspect-ratio: 16 / 9;
         width: 100%;
     }
 
-    .other-video {
+    .video-item-container {
         aspect-ratio: 16 / 9;
         width: 100%;
     }
 
-    .videography-bento-item-box {
+    .video-item {
+        width: 100%;
+        height: 100%;
+    }
+
+    .videography-bento-item-container {
         aspect-ratio: 4 / 3;
         width: 100%;
         background-color: #181818;
-        background-clip: padding-box;
     }
 
-    .calvin-ry-picture {
-        width: 120px;
-        height: 120px;
-        padding: 5px;
-        margin-top: 42px;
-        margin-bottom: 42px;
-    }
-
-    .calvin-ry-subtitle {
-        margin-bottom: 24px;
+    .section-equipment-gear-padding {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
 }
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR ??? */
-/* These are the media queries for ??? */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPAD - 768px */
+/* ========================================================================== */
 
 @media screen and (min-width: 768px) {
 
-    .latest-cinematic-video {
-        margin-right: 36px;
-        margin-left: 36px;
+    .video-item-container {
+        width: 50%;
     }
 
-    .other-video {
-        width: 340px;
+    .video-item {
+        padding: 2px;
+        box-sizing: border-box; /* to ensure width of 100% respects internal padding */
     }
 
-    .videography-bento-item-box {
-        width: 49%;
+    .videography-bento-item-container {
+        width: 50%;
     }
 
-    .calvin-ry-picture {
-        width: 160px;
-        height: 160px;
-        padding: 5px;
-    }
-
-    .calvin-ry-subtitle {
-        margin-bottom: 30px;
+    .section-equipment-gear-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
 }
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPAD PRO */
-/* These are the media queries for a 1024px iPad width */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR DESKTOP - 1024px */
+/* ========================================================================== */
 
 @media screen and (min-width: 1024px) {
 
     .latest-cinematic-video {
-        margin-right: 96px;
-        margin-left: 96px;
+        max-width: 1024px;
     }
 
-    .other-video {
-        width: 460px;
-    }
-
-    .calvin-ry-picture {
-        width: 200px;
-        height: 200px;
-        padding: 5px;
-    }
-
-    .calvin-ry-subtitle {
-        margin-bottom: 36px;
-    }
-
-}
-
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR DESKTOP */
-/* These are the media queries for a 1200px Desktop width */
-
-@media screen and (min-width: 1200px) {
-
-    .latest-cinematic-video {
-        width: 1000px;   
-        height: 563px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .other-video {
-        width: 540px;
-    }
-
-    .calvin-ry-picture {
-        width: 240px;
-        height: 240px;
-        padding: 5px;
-        margin-top: 56px;
-        margin-bottom: 56px;
-    }
-
-    .calvin-ry-subtitle {
-        margin-bottom: 42px;
+    .section-equipment-gear-padding {
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
 }

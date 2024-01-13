@@ -52,6 +52,11 @@ p {
     flex-direction: column;
 }
 
+.horizontal-flex-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 /* ========================================================================== */
 /* DEFAULT BUTTON STYLES */
 /* ========================================================================== */
