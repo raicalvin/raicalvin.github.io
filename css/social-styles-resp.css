@@ -9,6 +9,15 @@
         height: 100px;
     }
 
+    .small-contact-card-container { 
+        gap: 12px;
+    }
+
+    .small-social-contact-item {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 /* ========================================================================== */
@@ -22,6 +31,15 @@
         height: 120px;
     }
 
+    .small-contact-card-container {
+
+    }
+
+    .small-social-contact-item {
+        width: 140px;
+        height: 200px;
+    }
+
 }
 
 /* ========================================================================== */
@@ -33,6 +51,11 @@
     .large-social-card-picture {
         width: 140px;
         height: 140px;
+    }
+
+    .small-contact-card-container {
+        justify-content: center;
+        gap: 12px;
     }
 
 }
