@@ -42,3 +42,12 @@
     width: fit-content;
     -webkit-text-fill-color: transparent;
 }
+
+.text-gradient-sunset {
+    background: -webkit-linear-gradient(30deg, #E00303, #FFA800);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
