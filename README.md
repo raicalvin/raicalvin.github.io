@@ -8,6 +8,7 @@ If you need to contact me, there's a section at the very bottom of this README. 
 
 ## Version History
 
+- **v0.14**: Major code refinement for archive page
 - **v0.14**: Major code refinement for contact page
 - **v0.13**: Major code refinement for simmy sigma page
 - **v0.12**: Major code refinement for videography page and subpages
