@@ -51,3 +51,12 @@
     width: fit-content;
     -webkit-text-fill-color: transparent;
 }
+
+.text-gradient-miami {
+    background: -webkit-linear-gradient(30deg, #FF4270, #A300E8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
