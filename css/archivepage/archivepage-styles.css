@@ -6,11 +6,6 @@
 /* SECTIONS */
 /* This are full-width sections of your websites that will house your containers */
 
-.section-archive-header {
-    background-color: black;
-    height: 532px;
-}
-
 .section-design-samples {
     margin-bottom: 76px;
 }
@@ -19,38 +14,17 @@
 /* ARCHIVE HERO STYLES */
 /* These are styles specific to the hero part in the archive page */
 
-.container-archive-header {
-    color: white;
-    padding-top: 143px;
-}
-
 /* === === === === === === === === === === === === === === === */
 /* WEB APPLICATION STYLES */
 /* These are styles specific to the web app projects part */
 
-.web-app-title {
-    background: -webkit-linear-gradient(30deg, #FF4270, #A300E8);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 32px;
+.web-app-grid {
+    outline: 2px solid #F0F0F0;
 }
 
 /* === === === === === === === === === === === === === === === */
 /* DESIGN SAMPLES STYLES */
 /* These are styles specific to the design samples part */
-
-.design-samples-title {
-    background: -webkit-linear-gradient(30deg, #FF4270, #A300E8);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 32px;
-}
 
 .container-design-samples {
     display: flex;
