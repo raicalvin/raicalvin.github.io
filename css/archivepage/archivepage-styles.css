@@ -6,11 +6,6 @@
 /* SECTIONS */
 /* This are full-width sections of your websites that will house your containers */
 
-.section-archive-header {
-    background-color: black;
-    height: 532px;
-}
-
 .section-design-samples {
     margin-bottom: 76px;
 }
@@ -18,11 +13,6 @@
 /* === === === === === === === === === === === === === === === */
 /* ARCHIVE HERO STYLES */
 /* These are styles specific to the hero part in the archive page */
-
-.container-archive-header {
-    color: white;
-    padding-top: 143px;
-}
 
 /* === === === === === === === === === === === === === === === */
 /* WEB APPLICATION STYLES */
