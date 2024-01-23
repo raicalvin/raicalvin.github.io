@@ -22,11 +22,11 @@
 /* ========================================================================== */
 
 .container-header {
-    color: white;
+    color: var(--snow);
 }
 
 .hero-bottom-chevron {
-    color: white;
+    color: var(--snow);
     opacity: 0.7;
     position: absolute;
     left: 0;
@@ -39,13 +39,13 @@
 /* ========================================================================== */
 
 .about-me-description {
-    color: #E7E7E7;
+    color: var(--stone);
 }
 
 .about-me-ending-line {
     width: 40px;
     height: 2px;
-    background-color: #2ABFFF;
+    background-color: var(--water);
 }
 
 /* ========================================================================== */
@@ -73,7 +73,7 @@
 }
 
 .augmented-reality-project-overlay {
-    background-color: black;
+    background-color: var(--space);
     position: absolute;
     top: 0px;
     bottom: 0;
@@ -90,7 +90,7 @@
 }
 
 .augmented-reality-project-thumb-caption {
-    color: white;
+    color: var(--snow);
     position: absolute;
     top: 50%;
     left: 0%;
@@ -139,7 +139,7 @@
     transition: 0.5s;
     pointer-events: none;
     position: absolute;
-    color: black;
+    color: var(--space);
     left: 0px;
     right: 0px;
     visibility: hidden; 
@@ -156,7 +156,7 @@
 /* ========================================================================== */
 
 .resume-title {
-    color: black;
+    color: var(--space);
 }
 
 .resume-image-bar-container {
@@ -165,7 +165,7 @@
 }
 
 .resume-left-blue-box {
-    background-color: #2ABFFF;
+    background-color: var(--water);
     width: 50%;
 }
 
@@ -178,7 +178,7 @@
 .resume-image {
     border-radius: 100%;
     margin: auto; 
-    background-color: #2ABFFF;
+    background-color: var(--water);
 }
 
 .container-resume-download {
