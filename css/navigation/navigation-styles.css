@@ -1,8 +1,3 @@
-/*
-    Styles defined in this file are specific to the navigation menu components
-    used throughout all pags of the website.
-*/
-
 /* ========================================================================== */
 /* NAVIGATION STYLES */
 /* ========================================================================== */
@@ -19,12 +14,12 @@
 }
 
 .menu a:hover {
-    color: #2ABFFF;
+    color: var(--water);
     transition: 0.25s;
 }
 
 .menu-item {
-    color: aliceblue;
+    color: var(--snow);
     text-decoration: none;
     padding: 0px 4px;
 }
@@ -42,7 +37,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background: #000;
+    background: var(--space);
     opacity: 90%;
     z-index: 1;
     position: absolute;
