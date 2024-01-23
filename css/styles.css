@@ -26,15 +26,15 @@ p {
 /* ========================================================================== */
 
 .section-fun-quote {
-    background-color: #E7E7E7;
+    background-color: var(--stone);
 }
 
 .section-black-bg {
-    background-color: black;
+    background-color: var(--space);
 }
 
 .section-white-bg {
-    background-color: white;
+    background-color: var(--white);
 }
 
 /* ========================================================================== */
