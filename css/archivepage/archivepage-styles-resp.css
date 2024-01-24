@@ -1,22 +1,8 @@
-/* 
-    Styles defined in this file are specific to the responsive elements
-    of the archive and design page of the website.
-*/
-
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPHONE (363px) */
-/* These are the media queries for a 363px iPhone width */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPHONE - 320px */
+/* ========================================================================== */
 
 @media screen and (min-width: 360px) {
-
-    .grid {
-        width: 360px;
-        margin: auto;
-    }
-
-    .grid-front-end {
-        width: 100%;
-    }
 
     .web-app-row-item {
         display: flex;
@@ -77,27 +63,19 @@
 
 }
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR ??? */
-/* These are the media queries for ??? */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR IPAD - 768px */
+/* ========================================================================== */
 
 @media screen and (min-width: 768px) {
 
-    .grid {
-        width: 768px;
-    }
-
 }
 
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR iPAD PRO */
-/* These are the media queries for a 1024px iPad width */
+/* ========================================================================== */
+/* MEDIA QUERIES FOR DESKTOP - 1024px */
+/* ========================================================================== */
 
 @media screen and (min-width: 1024px) {
-
-    .grid {
-        width: 1024px;
-    }
 
     .web-app-item-image {
         width: 50%;
@@ -120,15 +98,4 @@
         width: 49%;
     }
 
-}
-
-/* === === === === === === === === === === === === === === === */
-/* MEDIA QUERIES FOR DESKTOP */
-/* These are the media queries for a 1200px Desktop width */
-
-@media screen and (min-width: 1200px) {
-
-    .grid {
-        width: 1200px;
-    }
 }
