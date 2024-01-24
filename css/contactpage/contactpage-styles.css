@@ -1,46 +1,6 @@
-/* 
-    Styles defined in this file apply only to the contac page of this website.
-*/
-
-/* === === === === === === === === === === === === === === === */
-/* SECTIONS */
-/* This are full-width sections of your websites that will house your containers */
-
-.section-contact-header {
-    background-color: black;
-    height: 532px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* CONTACT HERO STYLES */
-/* These are styles specific to the hero part in the contact page */
-
-.container-contact-header {
-    color: white;
-    padding-top: 143px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* CONTACT CARD STYLES */
-/* These are styles specific to a generic contact card */
-
-.contact-cards-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.contact-card {
-    display: flex;
-    border: 2px solid black;
-    margin-bottom: 24px;
-    padding-right: 22px;
-}
-
-.contact-card:hover {
-    border: 2px solid #00C2FF;
-    transition-duration: 0.25s;
-    cursor: pointer;
-}
+/* ========================================================================== */
+/* CONTACT CARD STYLES                                                        */
+/* ========================================================================== */
 
 .contact-card-logo {
     height: 40px;
@@ -49,54 +9,4 @@
     margin-bottom: 22px;
     margin-left: 22px;
     margin-right: 12px;
-}
-
-.contact-card-text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* SOCIAL MEDIA STYLES */
-/* These are styles specific to the social media part */
-
-.social-media-title {
-    background: -webkit-linear-gradient(30deg, #E00303, #FFA800);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 32px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* LINKEDIN STYLES */
-/* These are styles specific to the linkedin part */
-
-.linkedin-title {
-    background: -webkit-linear-gradient(30deg, #00C2FF, #03E076);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 32px;
-    margin-top: 48px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* OTHER STYLES */
-/* These are styles specific to the other part */
-
-.other-contacts {
-    background: -webkit-linear-gradient(30deg, #FF00B8, #9903E0);
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: block;
-    width: fit-content;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 32px;
-    margin-top: 48px;
 }
