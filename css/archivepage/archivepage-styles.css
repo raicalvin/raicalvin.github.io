@@ -1,30 +1,14 @@
-/* 
-    Styles defined in this file apply only to the archive page of this website.
-*/
-
-/* === === === === === === === === === === === === === === === */
-/* SECTIONS */
-/* This are full-width sections of your websites that will house your containers */
-
-.section-design-samples {
-    margin-bottom: 76px;
-}
-
-/* === === === === === === === === === === === === === === === */
-/* ARCHIVE HERO STYLES */
-/* These are styles specific to the hero part in the archive page */
-
-/* === === === === === === === === === === === === === === === */
-/* WEB APPLICATION STYLES */
-/* These are styles specific to the web app projects part */
+/* ========================================================================== */
+/* WEB APPLICATION STYLES                                                     */
+/* ========================================================================== */
 
 .web-app-grid {
     outline: 2px solid #F0F0F0;
 }
 
-/* === === === === === === === === === === === === === === === */
-/* DESIGN SAMPLES STYLES */
-/* These are styles specific to the design samples part */
+/* ========================================================================== */
+/* DESIGN SAMPLE STYLES                                                       */
+/* ========================================================================== */
 
 .container-design-samples {
     display: flex;
