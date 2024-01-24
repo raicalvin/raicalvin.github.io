@@ -12,4 +12,4 @@ function toggleNavigationMenu() {
 
 function downloadResume() {
     window.open("docs/crai_resume_public.pdf")
- }
+}
