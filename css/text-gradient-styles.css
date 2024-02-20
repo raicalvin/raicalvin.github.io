@@ -60,3 +60,30 @@
     width: fit-content;
     -webkit-text-fill-color: transparent;
 }
+
+.text-gradient-aladdin {
+    background: -webkit-linear-gradient(30deg, #5fc61a, #5a5a5a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-genie {
+    background: -webkit-linear-gradient(30deg, #2976fc, #b7ba21);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-jasmine {
+    background: -webkit-linear-gradient(30deg, #ff6a90, #d778ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: block;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+}
