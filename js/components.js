@@ -23,6 +23,7 @@ class NavigationMenuMobile extends HTMLElement {
                 <ul class="menu-mobile">
                     <li onclick="toggleNavigationMenu()"><a href="pages/videographypage.html" class="typ-body-text menu-item">Videography</a></li>
                     <li onclick="toggleNavigationMenu()"><a href="pages/simmysigmapage.html" class="typ-body-text menu-item">Simmy Sigma</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="pages/pavipoo.html" class="typ-body-text menu-item">Pavan</a></li>
                     <li onclick="toggleNavigationMenu()"><a href="pages/archivepage.html" class="typ-body-text menu-item">Archive</a></li>
                 </ul>
                 <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="icons/close_icon_white.svg" />
