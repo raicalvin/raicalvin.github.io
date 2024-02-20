@@ -45,6 +45,8 @@ class NavigationMenuSubpage extends HTMLElement {
                     <li class="typ-body-text menu-item">|</li>
                     <li><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
                     <li class="typ-body-text menu-item">|</li>
+                    <li><a href="pavipoo.html" class="typ-body-text menu-item">Pavan</a></li>
+                    <li class="typ-body-text menu-item">|</li>
                     <li><a href="archivepage.html" class="typ-body-text menu-item">Archive</a></li>
                 </ul>
                 <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="../icons/menu-bar-icon.svg" />
@@ -63,6 +65,7 @@ class NavigationMenuSubpageMobile extends HTMLElement {
                     <li onclick="toggleNavigationMenu()"><a href="videographypage.html" class="typ-body-text menu-item">Videography</a></li>
                     <li onclick="toggleNavigationMenu()"><a href="simmysigmapage.html" class="typ-body-text menu-item">Simmy Sigma</a></li>
                     <li onclick="toggleNavigationMenu()"><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="pavipoo.html" class="typ-body-text menu-item">Pavan</a></li>
                     <li onclick="toggleNavigationMenu()"><a href="archivepage.html" class="typ-body-text menu-item">Archive</a></li>
                 </ul>
                 <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="../icons/close_icon_white.svg" />
