@@ -16,7 +16,7 @@ function downloadResume() {
 
 function paviPooClick() {
     const opacityLevel = 0.25
-    document.getElementById("paviTreasureChest").src = "../img/pavipoo/pp1.jpg";
+    document.getElementById("paviTreasureChest").src = "../img/pavipoo/treasure.jpeg";
     document.getElementById("paviOpacity1").style.opacity = opacityLevel;
     document.getElementById("paviOpacity2").style.opacity = opacityLevel;
     document.getElementById("paviOpacity3").style.opacity = opacityLevel;
