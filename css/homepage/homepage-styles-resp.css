@@ -29,6 +29,11 @@
         width: 50%;
     }
 
+    .item-android-projects-thumb-grayscale {
+        filter: none;
+        -webkit-filter: grayscale(0%);
+    }
+
     .item-android-project-thumb-title {
         top: 14px;
     }
@@ -124,6 +129,11 @@
 
     .item-android-project-thumb-title {
         top: 28px;
+    }
+
+    .item-android-projects-thumb-grayscale {
+        filter: none;
+        -webkit-filter: grayscale(100%);
     }
 
     .resume-left-blue-box {
