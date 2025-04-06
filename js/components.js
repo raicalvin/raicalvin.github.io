@@ -8,6 +8,8 @@ class NavigationMenu extends HTMLElement {
                     <li><a href="pages/simmysigmapage.html" class="typ-body-text menu-item">Simmy Sigma</a></li>
                     <li class="typ-body-text menu-item">|</li>
                     <li><a href="pages/archivepage.html" class="typ-body-text menu-item">Archive</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="pages/findshadow.html" class="typ-body-text menu-item">Find Shadow</a></li>
                 </ul>
                 <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="icons/menu-bar-icon.svg" />
             </nav>
@@ -24,6 +26,7 @@ class NavigationMenuMobile extends HTMLElement {
                     <li onclick="toggleNavigationMenu()"><a href="pages/videographypage.html" class="typ-body-text menu-item">Videography</a></li>
                     <li onclick="toggleNavigationMenu()"><a href="pages/simmysigmapage.html" class="typ-body-text menu-item">Simmy Sigma</a></li>
                     <li onclick="toggleNavigationMenu()"><a href="pages/archivepage.html" class="typ-body-text menu-item">Archive</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="pages/findshadow.html" class="typ-body-text menu-item">Find Shadow</a></li>
                 </ul>
                 <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="icons/close_icon_white.svg" />
             </nav>
@@ -46,6 +49,8 @@ class NavigationMenuSubpage extends HTMLElement {
                     <li><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
                     <li class="typ-body-text menu-item">|</li>
                     <li><a href="archivepage.html" class="typ-body-text menu-item">Archive</a></li>
+                    <li class="typ-body-text menu-item">|</li>
+                    <li><a href="findshadow.html" class="typ-body-text menu-item">Find Shadow</a></li>
                 </ul>
                 <img onclick="toggleNavigationMenu()" class="menu-hamburger" src="../icons/menu-bar-icon.svg" />
             </nav>
@@ -64,6 +69,7 @@ class NavigationMenuSubpageMobile extends HTMLElement {
                     <li onclick="toggleNavigationMenu()"><a href="simmysigmapage.html" class="typ-body-text menu-item">Simmy Sigma</a></li>
                     <li onclick="toggleNavigationMenu()"><a href="contactpage.html" class="typ-body-text menu-item">Contact</a></li>
                     <li onclick="toggleNavigationMenu()"><a href="archivepage.html" class="typ-body-text menu-item">Archive</a></li>
+                    <li onclick="toggleNavigationMenu()"><a href="findshadow.html" class="typ-body-text menu-item">Find Shadow</a></li>
                 </ul>
                 <img onclick="toggleNavigationMenu()" class="mobile-menu-close" src="../icons/close_icon_white.svg" />
             </nav>
